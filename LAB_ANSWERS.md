@@ -1,73 +1,119 @@
-# Lab 1 Answers
+# Lab 1: Git, DVC, and Data Preparation
 
-## Question 1
+## Overview
 
-`uv init` creates the Python project metadata (`pyproject.toml`), the Python
-version file, a README, and the source package structure. The metadata defines
-the project name, Python version, dependencies, build backend, and commands.
+This lab demonstrates how Git and DVC work together in a machine-learning
+project. Git versions source code and lightweight metadata, while DVC versions
+the datasets and stores their content in remote storage.
 
-## Question 2
+## Question 1: Files Created by `uv init`
 
-The `.dvc` directory contains DVC configuration and internal files. The
-`.dvcignore` file lists files that DVC should skip while scanning. These files
-are useful to share with the project and should be committed to Git, except for
-local caches and temporary files that are not part of the repository.
+`uv init` creates the initial Python project structure. The main files are:
 
-## Question 3
+- `pyproject.toml`: project metadata, Python version, dependencies, build
+	configuration, and command-line entry points.
+- `README.md`: project documentation.
+- `.python-version`: the selected Python version.
+- `src/`: the source-code package directory when the project uses the `src`
+	layout.
 
-With `--global`, DVC stores the remote credentials in the user's global DVC
-configuration, outside this repository. Other scopes are `--system` for the
-machine-wide configuration and `--local` for the current repository. Passwords
-and access tokens must never be committed to GitHub. Only the non-secret remote
-URL in `.dvc/config` should be committed.
+Together, these files define how the project is installed and executed.
 
-## Question 4
+## Question 2: Files Created by `dvc init`
 
-`dvc add data` adds `/data` to `.gitignore`. Git therefore ignores the actual
-dataset files, while DVC tracks them in its cache and Git tracks the pointer
-file. This prevents the large images from being committed to GitHub.
+`dvc init` creates the DVC configuration directory and supporting files:
 
-## Question 5
+- `.dvc/config`: repository-level configuration, including non-sensitive
+	remote definitions.
+- `.dvcignore`: patterns for files DVC should skip while scanning.
+- `.dvc/`: DVC internal metadata and local state.
 
-`data.dvc` is the DVC pointer file. It records the path (`data`), the content
-hash, the size, and the number of files. It lets DVC retrieve the exact data
-version associated with a Git commit.
+The configuration files and `.dvcignore` should be committed to Git. Local
+caches, temporary files, and credentials must remain outside the repository.
 
-## Question 6
+## Question 3: DVC Credentials and Configuration Scopes
 
-GitHub contains the source code, project configuration, `.dvc` metadata, and
-`data.dvc`, but not the image files themselves. DagsHub contains the image data
-only after `dvc push` has completed successfully. The `data.dvc` file points to
-the data version, while `.dvc/config` points DVC to the DagsHub remote.
+With `--global`, DVC stores settings in the user's global configuration. Other
+scopes are:
 
-## Question 7
+- `--system`: applies to all users on the machine.
+- `--local`: applies only to the current repository.
 
-After cloning the GitHub repository, the data directory is not restored by Git
-because it is ignored. Run the following commands to retrieve it:
+Passwords, access tokens, and secret keys must never be committed to GitHub.
+Only the non-sensitive remote URL belongs in `.dvc/config`. Repository-specific
+credentials should be stored in `.dvc/config.local`, which must remain
+untracked.
+
+## Question 4: Changes to `.gitignore` After `dvc add data`
+
+Running `dvc add data` adds `/data` to `.gitignore`. Git therefore ignores the
+large image files. DVC calculates their hashes, stores the content in its local
+cache, and creates a lightweight pointer file for Git to version.
+
+This keeps the Git repository small while preserving data versioning and
+reproducibility.
+
+## Question 5: Contents of `data.dvc`
+
+`data.dvc` is the pointer file for the `data` directory. It records the tracked
+path, content hash, dataset size, and number of files. It does not contain the
+images; it allows DVC to restore the corresponding data from its cache or a
+configured remote.
+
+## Question 6: GitHub and DagsHub Contents
+
+GitHub contains the source code, tests, project configuration, DVC metadata,
+and pointer files such as `data.dvc`. It does not contain the image files
+because the `data` directory is ignored by Git.
+
+DagsHub contains the actual dataset after `dvc push` completes successfully.
+The `data.dvc` file identifies the data version, while `.dvc/config` identifies
+the DVC remote used for storage.
+
+## Question 7: Restoring Data in a New Clone
+
+After cloning the GitHub repository, the ignored data directory is not restored
+by Git. After installing DVC and configuring the remote credentials, run:
 
 ```powershell
 dvc pull
 ```
 
-This requires DVC credentials and a successful earlier `dvc push` to the
-configured DagsHub remote.
+This requires valid DVC credentials and a successful earlier `dvc push`.
 
-## Question 8
+## Question 8: Switching Between Code and Data Versions
 
-After checking out an older Git commit, run:
+First, list the commits that changed the data pointer:
 
 ```powershell
+git log --oneline -- data.dvc
+```
+
+After checking out an older Git commit, synchronize the working data with it:
+
+```powershell
+git checkout <old-commit-hash>
 dvc checkout
 ```
 
 DVC then changes the working data to match the `data.dvc` pointer in that
 commit. If that commit predates the processed datasets, the
-`food11_processed` and `food11_processed_mini` directories disappear. After
-returning to `main` and running `dvc checkout`, the data from the main commit is
-restored.
+`food11_processed` and `food11_processed_mini` directories disappear. Return
+to `main` and restore its data version with:
 
-## Submission checklist
+```powershell
+git checkout main
+dvc checkout
+```
 
-Commit and push the code, tests, README, lab answers, DVC configuration, and
-pointer files to GitHub. Run `dvc push` separately to upload the image content
-to DagsHub. Do not commit DVC credentials or the raw image files to GitHub.
+Git selects the project revision and DVC synchronizes the corresponding data
+revision.
+
+## Submission Checklist
+
+- Commit the source code, tests, README, lab answers, DVC metadata, and pointer
+	files to GitHub.
+- Run `dvc push` to upload the dataset content to DagsHub.
+- Confirm that `dvc pull` works from a clean clone when the full workflow is
+	being assessed.
+- Never commit raw images, DVC caches, passwords, access tokens, or secret keys.
