@@ -2,3 +2,4 @@
     remote = origin
 ['remote "origin"']
     url = https://dagshub.com/marcger2004/mlops-lab-1.dvc
+    no_traverse = true

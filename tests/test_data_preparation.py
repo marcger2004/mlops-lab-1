@@ -32,6 +32,7 @@ def test_prepare_food11_data_creates_processed_folders_and_limits_mini_dataset(t
         "Dessert",
     ]
 
+
     for idx, category in enumerate(categories):
         for split in ["training", "evaluation", "validation"]:
             for i in range(120):
