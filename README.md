@@ -44,3 +44,21 @@ pass `None` through the Python API to copy every image.
 ```powershell
 uv run pytest
 ```
+
+## Train with MLflow
+
+Start the local MLflow tracking server in a separate terminal:
+
+```powershell
+uv run mlflow server --host 127.0.0.1 --port 5000 --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns
+```
+
+Then train on the mini dataset:
+
+```powershell
+uv run python .\src\food11\train.py --dataset mini --epochs 5 --lr 0.001 --batch-size 32
+```
+
+The training script logs parameters, per-epoch training and validation metrics,
+final evaluation accuracy, and the trained PyTorch model to the `food11`
+experiment. Use `--dataset processed` for the full processed dataset.
