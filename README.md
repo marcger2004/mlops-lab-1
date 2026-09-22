@@ -5,7 +5,14 @@ reads the label prefix from each image filename, copies images into
 class-named directories, resizes them to 128x128, and creates a reduced
 dataset with a configurable maximum number of images per class.
 
-The written answers to the lab questions are in [LAB_ANSWERS.md](LAB_ANSWERS.md).
+## Lab documentation
+
+| Lab | Instructions | Answers |
+| --- | --- | --- |
+| Lab 1 | [Instructions](docs/labs/lab1/instructions.md) | [Answers](docs/labs/lab1/answers.md) |
+| Lab 2 | [Instructions](docs/labs/lab2/instructions.md) | [Answers](docs/labs/lab2/answers.md) |
+
+The instruction files are placeholders until the original lab handouts are added.
 
 ## Setup
 
