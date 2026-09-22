@@ -1,4 +1,4 @@
-# MLOps Lab 1
+## MLOps Lab Series
 
 This project prepares the Food-11 image dataset for training workflows. It
 reads the label prefix from each image filename, copies images into
