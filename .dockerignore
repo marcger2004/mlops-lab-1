@@ -1,0 +1,16 @@
+.venv/
+data/
+mlruns/
+mlartifacts/
+mlflow.db*
+.git/
+.dvc/
+.pytest_cache/
+**/__pycache__/
+**/*.pyc
+.env*
+docs/
+tests/
+*.log
+.agents/
+.codex/

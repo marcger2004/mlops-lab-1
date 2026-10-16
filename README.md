@@ -11,8 +11,11 @@ dataset with a configurable maximum number of images per class.
 | --- | --- | --- |
 | Lab 1 | [Instructions](docs/labs/lab1/instructions.md) | [Answers](docs/labs/lab1/answers.md) |
 | Lab 2 | [Instructions](docs/labs/lab2/instructions.md) | [Answers](docs/labs/lab2/answers.md) |
+| Lab 3 | [Instructions](docs/labs/lab3/instructions.md) · [Run guide](docs/labs/lab3/README.md) | [Answers](docs/labs/lab3/answers.md) |
+| Lab 4 | [Instructions](docs/labs/lab4/instructions.md) · [Run guide](docs/labs/lab4/README.md) | [Answers](docs/labs/lab4/answers.md) |
 
-The instruction files are placeholders until the original lab handouts are added.
+The Lab 1 and Lab 2 instruction files are placeholders until their original
+handouts are added. The Lab 3 and Lab 4 handouts and run guides are available.
 
 ## Setup
 

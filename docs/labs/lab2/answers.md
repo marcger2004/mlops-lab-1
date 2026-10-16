@@ -1,62 +1,49 @@
 # Lab 2: Model Training and MLflow
 
+[Lab index](../../../README.md#lab-documentation) | [Instructions](instructions.md)
+
+## Overview
+
+This lab trains the Food-11 model and uses MLflow to compare the runs.
+
 ## Question 1: Changes to `pyproject.toml` and `uv.lock`
 
-The project dependencies now include MLflow, PyTorch, torchvision, and
-scikit-learn. The project uses the PyTorch CPU package index so that the CPU
-wheels are installed instead of the much larger CUDA-enabled wheels.
-
-`uv.lock` records the exact resolved versions and dependencies so the training
-environment can be reproduced.
+`pyproject.toml` now includes MLflow, PyTorch, torchvision, and scikit-learn.
+PyTorch uses the CPU version here. `uv.lock` keeps the package versions so
+they can be installed again later.
 
 ## Question 2: MLflow storage locations
 
-`--backend-store-uri sqlite:///mlflow.db` tells MLflow where to store run
-metadata, including experiments, run IDs, parameters, metrics, and tags.
-
-`--default-artifact-root ./mlruns` tells MLflow where to store larger run
-artifacts, such as the trained model and its environment files.
-
-Metadata describes and tracks a run. Artifacts are files produced by the run.
-They are stored separately because artifacts can be much larger than metadata.
+`--backend-store-uri sqlite:///mlflow.db` puts the run details, parameters,
+and metrics in the database. `--default-artifact-root ./mlruns` is where the
+model files are saved.
 
 ## Question 3: Why ignore `mlflow.db` and `mlruns/`?
 
-These files are local MLflow outputs, not source code. They change whenever a
-run is created and can become large. They should not be committed to GitHub.
-They should not be tracked by DVC either because DVC is used for the Food-11
-dataset, not for temporary local experiment outputs.
+MLflow creates these files during the experiments. They change often and
+can get large, so they are ignored by Git. DVC is only used for the dataset
+in this lab.
 
 ## Question 4: Creating the `food11` experiment
 
-When `mlflow.set_experiment("food11")` is called and the experiment does not
-exist, MLflow creates it automatically. It then appears in the MLflow UI and
-new runs are recorded inside it.
+`mlflow.set_experiment("food11")` creates the experiment if it does not
+exist. The training runs then appear under `food11` in the MLflow interface.
 
 ## Question 5: Parameters versus metrics
 
-A parameter is a value chosen before training and normally remains fixed for a
-run, such as the learning rate or batch size.
-
-A metric is a value produced during or after training, such as loss or
-accuracy. Metrics can be logged repeatedly during training. The `step`
-argument identifies the epoch or iteration associated with each metric value,
-which allows MLflow to draw a chart over time. Parameters do not need a step
-because they are logged once for the run.
+A parameter is something set before training, like the learning rate. A
+metric is a result, like accuracy. `step` tells MLflow which epoch the result
+comes from; the fixed parameters do not need it.
 
 ## Question 6: Run contents and model location
 
-The MLflow run contains the parameters `dataset`, `epochs`, `lr`, and
-`batch_size`, along with the metrics `train_loss`, `val_loss`,
-`val_accuracy`, and `test_accuracy`.
-
-The trained model is visible under `Artifacts` in the `model` artifact. The
-local artifact files are stored below the project's `mlruns/` directory, with
-metadata in `mlflow.db`.
+The run saves `dataset`, `epochs`, `lr`, and `batch_size`, plus the loss
+and accuracy metrics. The model is saved as the `model` artifact under
+`mlruns/`, with run details in `mlflow.db`.
 
 ## Question 7: Best learning rate
 
-Using one epoch on the mini dataset, the observed validation accuracies were:
+Here are the results after one epoch:
 
 | Learning rate | Batch size | Validation accuracy |
 | --- | ---: | ---: |
@@ -65,35 +52,23 @@ Using one epoch on the mini dataset, the observed validation accuracies were:
 | `0.0001` | 32 | `0.6962` |
 | `0.001` | 64 | `0.2190` |
 
-In these runs, `0.0001` gave the best validation accuracy. A higher learning
-rate is not always better; `0.01` performed the worst in this comparison.
+`0.0001` gave the best score here. A bigger learning rate did not help.
 
 ## Question 8: Parallel coordinates pattern
 
-The best observed result used the smaller learning rate, `0.0001`, with batch
-size `32`. The run with learning rate `0.01` had very low validation accuracy,
-which suggests that the learning rate was too large for this training setup.
-
-The comparison between batch sizes also favored batch size `32` in these runs,
-but the experiments used only one epoch, so more epochs and repeated runs
-would give a more reliable conclusion.
+The best result used learning rate `0.0001` and batch size `32`.
+At `0.001`, batch size `32` also beat `64`. These were only one-epoch runs,
+so this is not enough to say it will always work better.
 
 ## Question 9: Best run
 
-The best run from the tested commands was:
+The best run was `spiffy-shoat-227`, with learning rate `0.0001` and batch
+size `32`. It reached **69.62% validation accuracy** and **74.27% test accuracy**.
 
-- Run name: `spiffy-shoat-227`
-- Run ID: `8bc2509809e240d297392b4e57a6c6e0`
-- Learning rate: `0.0001`
-- Batch size: `32`
-- Validation accuracy: `0.6962`
-- Test accuracy: `0.7427`
+Run ID: `8bc2509809e240d297392b4e57a6c6e0`.
+[View it in MLflow](http://127.0.0.1:5000/#/experiments/1/runs/8bc2509809e240d297392b4e57a6c6e0).
 
-MLflow run URL:
-
-http://127.0.0.1:5000/#/experiments/1/runs/8bc2509809e240d297392b4e57a6c6e0
-
-## Lab 2 submission checklist
+## Submission checklist
 
 - [x] Training script added at `src/food11/train.py`.
 - [x] MLflow experiment `food11` created.
