@@ -12,7 +12,7 @@ Run these commands from the repository root:
 ```powershell
 docker compose build
 docker compose up -d --wait mlflow
-uv run python -m src.food11.bootstrap_compose
+uv run python -m food11.bootstrap_compose
 docker compose up -d --wait
 ```
 
@@ -47,7 +47,7 @@ and [Compose startup order](https://docs.docker.com/compose/how-tos/startup-orde
 Re-register the same model to demonstrate the version update:
 
 ```powershell
-uv run python -m src.food11.bootstrap_compose --new-version
+uv run python -m food11.bootstrap_compose --new-version
 docker compose restart inference
 docker compose logs --tail 20 inference
 ```
@@ -77,7 +77,7 @@ previous host MLflow server if it is using port 5000, or choose another port:
 ```powershell
 $env:MLFLOW_PORT = "5001"
 docker compose up -d --wait mlflow
-uv run python -m src.food11.bootstrap_compose --target-uri http://127.0.0.1:5001
+uv run python -m food11.bootstrap_compose --target-uri http://127.0.0.1:5001
 docker compose up -d --wait
 ```
 

@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 
-from food11.data import prepare_food11_data
+from .data import prepare_food11_data
 
 
 def main() -> None:

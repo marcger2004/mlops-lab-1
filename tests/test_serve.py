@@ -7,7 +7,7 @@ import pytest
 from fastapi import HTTPException, UploadFile
 from PIL import Image
 
-from src.food11 import serve
+from food11 import serve
 
 
 def test_predict_preprocesses_grayscale_and_maps_class(monkeypatch):

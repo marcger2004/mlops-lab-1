@@ -1,7 +1,7 @@
 [project]
 name = "mlops-lab-1"
 version = "0.1.0"
-description = "Add your description here"
+description = "Food-11 data preparation, model training, and prediction API for the MLOps labs"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mlops-lab-1 = "mlops_lab_1:main"
+mlops-lab-1 = "food11.cli:main"
 
 [dependency-groups]
 dev = [
@@ -35,3 +35,6 @@ explicit = true
 [tool.uv.sources]
 torch = { index = "pytorch-cpu" }
 torchvision = { index = "pytorch-cpu" }
+
+[tool.uv.build-backend]
+module-name = "food11"

@@ -23,7 +23,7 @@ The host binding and allowed host names let Docker Desktop reach the server.
 In another terminal:
 
 ```powershell
-uv run python -m src.food11.register
+uv run python -m food11.register
 ```
 
 This selects the finished run with the highest final logged `val_accuracy`,
@@ -41,7 +41,7 @@ experiment artifact locations. See the
 ## 3. Test locally
 
 ```powershell
-uv run uvicorn src.food11.serve:app --host 127.0.0.1 --port 8000
+uv run uvicorn food11.serve:app --host 127.0.0.1 --port 8000
 ```
 
 In another terminal:
@@ -86,7 +86,7 @@ restarting the API to load the new version.
 For the single-stage comparison, build the provided deliberately naive image:
 
 ```powershell
-docker build -f Dockerfile.single -t food11-api:single .
+docker build -f docker/Dockerfile.single -t food11-api:single .
 docker image inspect food11-api:single --format '{{.Size}}'
 docker history food11-api:single
 ```
@@ -101,7 +101,7 @@ Model artifacts and the MLflow database remain local and ignored by Git.
 Pushing the image to a registry is a separate step from pushing Git commits.
 
 ```powershell
-git add Dockerfile Dockerfile.single .dockerignore .gitignore src/food11/serve.py src/food11/register.py tests/test_serve.py pyproject.toml uv.lock README.md docs/labs/lab3
+git add Dockerfile docker/Dockerfile.single .dockerignore .gitignore src/food11/serve.py src/food11/register.py tests/test_serve.py pyproject.toml uv.lock README.md docs/labs/lab3
 git commit -m "Containerize model serving with Docker"
 git push
 ```

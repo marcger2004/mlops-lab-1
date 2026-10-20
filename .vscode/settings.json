@@ -1,0 +1,20 @@
+{
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pyproject.toml": "uv.lock, .python-version",
+    "Dockerfile": ".dockerignore, docker-compose.yml",
+    "data.dvc": ".dvcignore"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.venv": true,
+    "mlartifacts": true,
+    "mlruns": true,
+    "mlflow.db": true,
+    "mlflow.db-*": true
+  }
+}
