@@ -29,6 +29,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--tracking-uri", default="http://127.0.0.1:5000")
     parser.add_argument("--experiment", default="food11")
     parser.add_argument("--num-workers", type=int, default=0)
+    parser.add_argument("--seed", type=int, default=42)
     return parser.parse_args()
 
 
@@ -99,6 +100,7 @@ def train(args: argparse.Namespace) -> None:
     if args.epochs < 1 or args.lr <= 0 or args.batch_size < 1:
         raise ValueError("epochs, lr, and batch-size must be positive")
 
+    torch.manual_seed(args.seed)
     mlflow.set_tracking_uri(args.tracking_uri)
     mlflow.set_experiment(args.experiment)
     dataset_root = DATASET_ROOTS[args.dataset]
@@ -124,6 +126,8 @@ def train(args: argparse.Namespace) -> None:
                 "batch_size": args.batch_size,
                 "model": "resnet18",
                 "device": str(device),
+                "seed": args.seed,
+                "test_size": len(loaders["evaluation"].dataset),
             }
         )
         for epoch in range(1, args.epochs + 1):
@@ -153,8 +157,8 @@ def train(args: argparse.Namespace) -> None:
         input_example = next(iter(loaders["training"]))[0][:1].to(device)
         mlflow.pytorch.log_model(
             model,
-            "model",
-            input_example=input_example,
+            name="model",
+            input_example=input_example.cpu().numpy(),
             serialization_format="pickle",
         )
         print(f"test_accuracy={test_accuracy:.4f}")

@@ -1,0 +1,47 @@
+{
+  "number": 1,
+  "url": "https://github.com/marcger2004/mlops-lab-1/pull/1",
+  "failing_sha": "70849a798ad5b8225d11ba55f09a72a22ebe6db7",
+  "failing_checks": {
+    "mergeable": true,
+    "mergeable_state": "blocked",
+    "checks": [
+      {
+        "name": "push",
+        "status": "completed",
+        "conclusion": "skipped",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894936968/job/123521699306"
+      },
+      {
+        "name": "smoke",
+        "status": "completed",
+        "conclusion": "skipped",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894936968/job/123521698070"
+      },
+      {
+        "name": "test",
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894936968/job/123521348966"
+      },
+      {
+        "name": "push",
+        "status": "completed",
+        "conclusion": "skipped",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894823065/job/123521305610"
+      },
+      {
+        "name": "smoke",
+        "status": "completed",
+        "conclusion": "skipped",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894823065/job/123521302135"
+      },
+      {
+        "name": "test",
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894823065/job/123520933724"
+      }
+    ]
+  }
+}

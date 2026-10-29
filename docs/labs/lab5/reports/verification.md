@@ -66,8 +66,8 @@ uv run python -m food11.validate_data data/food11_processed_mini
 | --- | --- |
 | Local container smoke test and registry pull | Docker engine was stopped |
 | Real candidate training and promotion | MLflow was stopped; dataset contract now passes |
-| First/second Actions timing comparison | Not measured |
-| Required checks and failing-then-fixed pull request | Not demonstrated |
+| First/second Actions timing comparison | Measured: 5m28s and 6m34s; see ci-runs.json |
+| Required checks and failing-then-fixed pull request | Protection enabled; failing check and blocked PR recorded; fixed checks pending |
 | GHCR image publication | Passed in the initial Actions run |
 
 The [initial Actions run](https://github.com/marcger2004/mlops-lab-1/actions/runs/40890938161)

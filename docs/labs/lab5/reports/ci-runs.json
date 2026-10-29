@@ -1,0 +1,328 @@
+[
+  {
+    "id": 40890938161,
+    "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40890938161",
+    "sha": "55a82cb40cffcec952ae75d15a1a724fa8e5141f",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-29T14:23:13Z",
+    "completed_at": "2026-10-29T14:28:41Z",
+    "total_seconds": 328,
+    "jobs": [
+      {
+        "name": "test",
+        "conclusion": "success",
+        "seconds": 35,
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success",
+            "seconds": 2
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run astral-sh/setup-uv@v5",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run uv sync --frozen",
+            "conclusion": "success",
+            "seconds": 4
+          },
+          {
+            "name": "Run uv run ruff check src tests",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run uv run pytest -q",
+            "conclusion": "success",
+            "seconds": 22
+          },
+          {
+            "name": "Post Run astral-sh/setup-uv@v5",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 0
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success",
+            "seconds": 0
+          }
+        ]
+      },
+      {
+        "name": "smoke",
+        "conclusion": "success",
+        "seconds": 52,
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run docker build -t food11-api:ci .",
+            "conclusion": "success",
+            "seconds": 39
+          },
+          {
+            "name": "Start container and probe health without MLflow",
+            "conclusion": "success",
+            "seconds": 8
+          },
+          {
+            "name": "Clean up",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 0
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success",
+            "seconds": 0
+          }
+        ]
+      },
+      {
+        "name": "push",
+        "conclusion": "success",
+        "seconds": 232,
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run docker/setup-buildx-action@v3",
+            "conclusion": "success",
+            "seconds": 7
+          },
+          {
+            "name": "Run docker/login-action@v3",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run docker/build-push-action@v6",
+            "conclusion": "success",
+            "seconds": 209
+          },
+          {
+            "name": "Post Run docker/build-push-action@v6",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Post Run docker/login-action@v3",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Post Run docker/setup-buildx-action@v3",
+            "conclusion": "success",
+            "seconds": 8
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success",
+            "seconds": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40891417620,
+    "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40891417620",
+    "sha": "c8c800ee3880ec9677bbac37a8da22fea72e36f1",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-29T14:26:06Z",
+    "completed_at": "2026-10-29T14:32:40Z",
+    "total_seconds": 394,
+    "jobs": [
+      {
+        "name": "test",
+        "conclusion": "success",
+        "seconds": 34,
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run astral-sh/setup-uv@v5",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run uv sync --frozen",
+            "conclusion": "success",
+            "seconds": 6
+          },
+          {
+            "name": "Run uv run ruff check src tests",
+            "conclusion": "success",
+            "seconds": 0
+          },
+          {
+            "name": "Run uv run pytest -q",
+            "conclusion": "success",
+            "seconds": 21
+          },
+          {
+            "name": "Post Run astral-sh/setup-uv@v5",
+            "conclusion": "success",
+            "seconds": 0
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success",
+            "seconds": 0
+          }
+        ]
+      },
+      {
+        "name": "smoke",
+        "conclusion": "success",
+        "seconds": 57,
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run docker build -t food11-api:ci .",
+            "conclusion": "success",
+            "seconds": 42
+          },
+          {
+            "name": "Start container and probe health without MLflow",
+            "conclusion": "success",
+            "seconds": 10
+          },
+          {
+            "name": "Clean up",
+            "conclusion": "success",
+            "seconds": 0
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 0
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success",
+            "seconds": 1
+          }
+        ]
+      },
+      {
+        "name": "push",
+        "conclusion": "success",
+        "seconds": 294,
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success",
+            "seconds": 3
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run docker/setup-buildx-action@v3",
+            "conclusion": "success",
+            "seconds": 7
+          },
+          {
+            "name": "Run docker/login-action@v3",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Run docker/build-push-action@v6",
+            "conclusion": "success",
+            "seconds": 267
+          },
+          {
+            "name": "Post Run docker/build-push-action@v6",
+            "conclusion": "success",
+            "seconds": 2
+          },
+          {
+            "name": "Post Run docker/login-action@v3",
+            "conclusion": "success",
+            "seconds": 0
+          },
+          {
+            "name": "Post Run docker/setup-buildx-action@v3",
+            "conclusion": "success",
+            "seconds": 9
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "conclusion": "success",
+            "seconds": 1
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success",
+            "seconds": 0
+          }
+        ]
+      }
+    ]
+  }
+]

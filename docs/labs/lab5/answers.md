@@ -18,7 +18,24 @@ Run it after preprocessing or DVC pull and before training on the machine with t
 A failed test job skips smoke, and consequently skips publishing. Without needs, smoke could run in parallel and succeed even while unit tests fail.
 
 ## Question 6: First versus second CI run
-Actual GitHub durations have not yet been measured. setup-uv caches downloaded dependencies; the second uv sync usually gets faster through cache restoration. Registry publishing uses GitHub Actions build-layer caching. The smoke job currently rebuilds without a persistent layer cache, so a faster Docker smoke build is not guaranteed.
+The [first run](https://github.com/marcger2004/mlops-lab-1/actions/runs/40890938161)
+took **5 min 28 s**; the [second run](https://github.com/marcger2004/mlops-lab-1/actions/runs/40891417620)
+took **6 min 34 s**, measured from run creation to the final job completion.
+
+| Step | First run | Second run |
+| --- | --- | --- |
+| Frozen dependency sync | 4 s | 6 s |
+| Pytest | 22 s | 21 s |
+| Smoke Docker build | 39 s | 42 s |
+| Registry build and push | 209 s | 267 s |
+
+Only pytest was slightly faster. These measurements do not show a cache speedup.
+The second run began before the first had finished publishing, so it could not
+reuse the first run's completed publication cache. Runner/network variation also
+matters. setup-uv caches dependencies, while the publication job uses BuildKit's
+GitHub Actions cache; the smoke build has no persistent layer cache. The second
+push changed documentation rather than being the exact empty-commit procedure.
+The [raw timings](reports/ci-runs.json) preserve that distinction.
 
 ## Question 7: Why tag images with the commit SHA?
 The SHA identifies the source revision and supports audit and rollback. With latest, machine A can retain yesterday's cached image while machine B pulls today's image, even though both configurations say latest. Use the published SHA tag when deploying; an image digest provides an even stronger content identifier.
@@ -27,7 +44,21 @@ The SHA identifies the source revision and supports audit and rollback. With lat
 The publishing job needs package write access and repository read access. Other jobs receive only repository read permission. An overprivileged compromised step could modify source, releases, or repository settings within the granted scopes and publish malicious artifacts.
 
 ## Question 9: Branch protection and the deliberately failing PR
-With required test and smoke checks and a pull-request requirement, a failing PR shows failed checks and is blocked from normal merging. Administrators may retain bypass privileges depending on rule settings. Central enforcement prevents reliance on every developer remembering local tests. Branch protection and a failing-then-fixed PR have not been demonstrated here; GitHub CLI is unavailable. Configure required checks test and smoke in the repository settings after their first run.
+The repository now requires a pull request and passing `test` and `smoke`
+checks on main, including for administrators. Required review approvals are set
+to zero so this individual lab repository can merge its own passing pull request.
+
+[Pull request #1](https://github.com/marcger2004/mlops-lab-1/pull/1) deliberately
+expected RuntimeError from an invalid model accuracy, although the gate correctly
+raises ValueError. `test` failed, `smoke` was skipped, and GitHub returned
+`mergeable_state: blocked`. The PR had no textual merge conflict; the required
+checks were what prevented merging. Correcting the expected exception retains
+useful regression coverage for NaN, infinity, negative accuracy, and accuracy
+above one. The [recorded checks](reports/pull-request.json) provide the evidence.
+
+This enforces one shared policy for the team rather than depending on everyone
+remembering to run local tests. Changes to required checks or bypass policy still
+need repository administrator privileges.
 
 ## Question 10: Model promotion decisions
 The script reads test_accuracy, follows source_run_id tags used by the earlier registration script, and computes 2*sqrt(p*(1-p)/n). It records both accuracies, the margin, metric, test size, prior champion and decision as candidate-version tags. Missing metrics fail before changing aliases.
