@@ -1,0 +1,188 @@
+[
+  {
+    "id": 40895530148,
+    "sha": "790e0b6c0f5ae8dbd4d267b01828681b758efee6",
+    "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40895530148",
+    "conclusion": "success",
+    "total_seconds": 92,
+    "jobs": [
+      {
+        "name": "test",
+        "conclusion": "success",
+        "seconds": 36,
+        "steps": [
+          {
+            "name": "Set up job",
+            "seconds": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "seconds": 1
+          },
+          {
+            "name": "Run astral-sh/setup-uv@v5",
+            "seconds": 2
+          },
+          {
+            "name": "Run uv sync --frozen",
+            "seconds": 5
+          },
+          {
+            "name": "Run uv run ruff check src tests",
+            "seconds": 0
+          },
+          {
+            "name": "Run uv run python -W error::DeprecationWarning -m pytest -q",
+            "seconds": 22
+          },
+          {
+            "name": "Post Run astral-sh/setup-uv@v5",
+            "seconds": 1
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "seconds": 0
+          },
+          {
+            "name": "Complete job",
+            "seconds": 0
+          }
+        ]
+      },
+      {
+        "name": "smoke",
+        "conclusion": "success",
+        "seconds": 49,
+        "steps": [
+          {
+            "name": "Set up job",
+            "seconds": 0
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "seconds": 1
+          },
+          {
+            "name": "Run docker build -t food11-api:ci .",
+            "seconds": 30
+          },
+          {
+            "name": "Start container and probe health without MLflow",
+            "seconds": 15
+          },
+          {
+            "name": "Clean up",
+            "seconds": 0
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "seconds": 1
+          },
+          {
+            "name": "Complete job",
+            "seconds": 0
+          }
+        ]
+      },
+      {
+        "name": "push",
+        "conclusion": "skipped",
+        "seconds": null,
+        "steps": []
+      }
+    ]
+  },
+  {
+    "id": 40898661297,
+    "sha": "6628cc5d7a826f7dd1559ebf064a32f614980b6c",
+    "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40898661297",
+    "conclusion": "success",
+    "total_seconds": 100,
+    "jobs": [
+      {
+        "name": "test",
+        "conclusion": "success",
+        "seconds": 26,
+        "steps": [
+          {
+            "name": "Set up job",
+            "seconds": 0
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "seconds": 1
+          },
+          {
+            "name": "Run astral-sh/setup-uv@v5",
+            "seconds": 2
+          },
+          {
+            "name": "Run uv sync --frozen",
+            "seconds": 5
+          },
+          {
+            "name": "Run uv run ruff check src tests",
+            "seconds": 0
+          },
+          {
+            "name": "Run uv run python -W error::DeprecationWarning -m pytest -q",
+            "seconds": 14
+          },
+          {
+            "name": "Post Run astral-sh/setup-uv@v5",
+            "seconds": 0
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "seconds": 0
+          },
+          {
+            "name": "Complete job",
+            "seconds": 0
+          }
+        ]
+      },
+      {
+        "name": "smoke",
+        "conclusion": "success",
+        "seconds": 68,
+        "steps": [
+          {
+            "name": "Set up job",
+            "seconds": 1
+          },
+          {
+            "name": "Run actions/checkout@v4",
+            "seconds": 1
+          },
+          {
+            "name": "Run docker build -t food11-api:ci .",
+            "seconds": 50
+          },
+          {
+            "name": "Start container and probe health without MLflow",
+            "seconds": 12
+          },
+          {
+            "name": "Clean up",
+            "seconds": 1
+          },
+          {
+            "name": "Post Run actions/checkout@v4",
+            "seconds": 0
+          },
+          {
+            "name": "Complete job",
+            "seconds": 0
+          }
+        ]
+      },
+      {
+        "name": "push",
+        "conclusion": "skipped",
+        "seconds": null,
+        "steps": []
+      }
+    ]
+  }
+]

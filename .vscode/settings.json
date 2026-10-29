@@ -15,6 +15,9 @@
     "mlartifacts": true,
     "mlruns": true,
     "mlflow.db": true,
-    "mlflow.db-*": true
+    "mlflow.db-*": true,
+    "**/.test-tmp*": true,
+    "**/.uv-cache": true,
+    "**/.ruff_cache": true
   }
 }

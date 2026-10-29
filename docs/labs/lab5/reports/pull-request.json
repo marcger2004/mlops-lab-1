@@ -1,0 +1,73 @@
+{
+  "number": 1,
+  "url": "https://github.com/marcger2004/mlops-lab-1/pull/1",
+  "failing_sha": "70849a798ad5b8225d11ba55f09a72a22ebe6db7",
+  "failing_checks": {
+    "mergeable": true,
+    "mergeable_state": "blocked",
+    "checks": [
+      {
+        "name": "push",
+        "status": "completed",
+        "conclusion": "skipped",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894936968/job/123521699306"
+      },
+      {
+        "name": "smoke",
+        "status": "completed",
+        "conclusion": "skipped",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894936968/job/123521698070"
+      },
+      {
+        "name": "test",
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894936968/job/123521348966"
+      },
+      {
+        "name": "push",
+        "status": "completed",
+        "conclusion": "skipped",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894823065/job/123521305610"
+      },
+      {
+        "name": "smoke",
+        "status": "completed",
+        "conclusion": "skipped",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894823065/job/123521302135"
+      },
+      {
+        "name": "test",
+        "status": "completed",
+        "conclusion": "failure",
+        "url": "https://github.com/marcger2004/mlops-lab-1/actions/runs/40894823065/job/123520933724"
+      }
+    ]
+  },
+  "protection": {
+    "required_checks": [
+      "test",
+      "smoke"
+    ],
+    "strict": true,
+    "enforce_admins": true,
+    "require_pull_request": true,
+    "required_approving_reviews": 0
+  },
+  "fixed_sha": "790e0b6",
+  "fixed_runs": [
+    {
+      "id": 40895543450,
+      "conclusion": "success"
+    },
+    {
+      "id": 40895530148,
+      "conclusion": "success"
+    }
+  ],
+  "empty_commit": "6628cc5d7a826f7dd1559ebf064a32f614980b6c",
+  "empty_commit_runs": [
+    40898661297,
+    40898670278
+  ]
+}

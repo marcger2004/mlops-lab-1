@@ -1,0 +1,20 @@
+{
+  "image": "ghcr.io/marcger2004/mlops-lab-1:55a82cb40cffcec952ae75d15a1a724fa8e5141f",
+  "repo_digests": [
+    "ghcr.io/marcger2004/mlops-lab-1@sha256:20132f7c4885789bdfdc7bc14fb3d2516b17a2187b6e68b1a331c24cba3f8fd1"
+  ],
+  "image_id": "sha256:20132f7c4885789bdfdc7bc14fb3d2516b17a2187b6e68b1a331c24cba3f8fd1",
+  "skip_model": true,
+  "health": {
+    "status_code": 200,
+    "body": {
+      "status": "ok"
+    }
+  },
+  "prediction_status": 503,
+  "prediction_body": {
+    "detail": "Model is not loaded."
+  },
+  "local_pull": "success",
+  "local_container_smoke": "success"
+}
