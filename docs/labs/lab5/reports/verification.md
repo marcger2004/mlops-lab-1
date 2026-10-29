@@ -47,10 +47,25 @@ Verification uses `python -W error::DeprecationWarning -m pytest -q`.
 - File count: 35923.
 - Total size: 1274306970 bytes.
 
-Upload to the configured DagsHub DVC remote is pending explicit user approval.
-The GitHub data pointer remains at the previous revision until the corrected
-content has been uploaded successfully. Do not expect `dvc pull` to restore the
-corrected version yet. Existing raw dataset contents remain unchanged.
+The corrected revision was published successfully to the configured DagsHub S3
+storage. DVC uploaded two missing objects and then reported an empty cloud
+status (`{}`), confirming synchronization. The new directory manifest was
+downloaded independently and its MD5 verified; a sample evaluation image was
+also downloaded and its content hash matched. The [publication report](dvc-publication.json)
+records the revision, file count, endpoint, and integrity checks.
+
+The legacy HTTP interface returned HTTP 401. The public configuration now
+selects the authenticated `dagshub-s3` interface of the same DagsHub repository.
+Credentials remain in the local DVC configuration.
+
+Restore the corrected revision from a clone with DVC's S3 plugin and local
+DagsHub credentials configured:
+
+```powershell
+uv tool run --from dvc --with dvc-s3 dvc pull
+uv run python -m food11.validate_data data/food11_processed
+uv run python -m food11.validate_data data/food11_processed_mini
+```
 
 To rebuild processed datasets from the raw images restored by DVC (including
 correcting the two legacy nested class names):

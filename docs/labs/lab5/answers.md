@@ -12,7 +12,7 @@ It checks multipart upload handling, image decoding, the training-compatible ten
 
 ## Question 3: Which check catches a copied image?
 
-The content-hash check detects the same bytes in two splits, regardless of filename. A corrupt image causes a visible failure; leakage silently inflates evaluation accuracy and can cause an unsuitable model to pass promotion. The regression test builds a valid miniature contract, introduces a cross-split duplicate, and verifies rejection. Actual dataset validation and the duplicate experiment are recorded in the [verification report](reports/verification.md). The original 43 mini-dataset duplicates have now been removed, and both processed datasets pass the contract.
+The content-hash check detects the same bytes in two splits, regardless of filename. A corrupt image causes a visible failure; leakage silently inflates evaluation accuracy and can cause an unsuitable model to pass promotion. The regression test builds a valid miniature contract, introduces a cross-split duplicate, and verifies rejection. Actual dataset validation and the duplicate experiment are recorded in the [verification report](reports/verification.md). The original 43 mini-dataset duplicates have now been removed, and both processed datasets pass the contract. The corrected revision has also been published to DagsHub; the [publication report](reports/dvc-publication.json) records the remote integrity checks.
 
 ## Question 4: Where should data validation run?
 

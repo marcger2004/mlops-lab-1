@@ -1,0 +1,20 @@
+{
+  "remote": "dagshub-s3",
+  "endpoint": "https://dagshub.com/marcger2004/mlops-lab-1.s3",
+  "bucket": "dvc",
+  "revision": "b38c87deafd98a0d322d43f803586737.dir",
+  "file_count": 35923,
+  "size_bytes": 1274306970,
+  "push": "success",
+  "objects_pushed": 2,
+  "downloaded_manifest_md5": "b38c87deafd98a0d322d43f803586737",
+  "manifest_integrity": "pass",
+  "sample": {
+    "path": "food11_processed_mini/evaluation/Bread/0_0.jpg",
+    "expected_md5": "98a4d2acfa7656e778524294ab3a5be6",
+    "downloaded_md5": "98a4d2acfa7656e778524294ab3a5be6",
+    "integrity": "pass"
+  },
+  "cloud_status": {},
+  "synchronized": true
+}
