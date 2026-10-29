@@ -21,6 +21,8 @@ mlops-lab-1 = "food11.cli:main"
 [dependency-groups]
 dev = [
 	"pytest>=8.0",
+    "ruff>=0.11",
+    "httpx>=0.28",
 ]
 
 [build-system]
@@ -38,3 +40,10 @@ torchvision = { index = "pytorch-cpu" }
 
 [tool.uv.build-backend]
 module-name = "food11"
+
+[tool.ruff]
+# Keep lint behavior reproducible instead of inheriting parent-directory config.
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

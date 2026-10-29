@@ -7,7 +7,6 @@ import sys
 
 from streamlit.testing.v1 import AppTest
 
-
 sample = sys.argv[1]
 script = f'''
 from io import BytesIO

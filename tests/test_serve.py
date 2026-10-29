@@ -1,5 +1,5 @@
-from io import BytesIO
 import asyncio
+from io import BytesIO
 from types import SimpleNamespace
 
 import numpy as np
@@ -19,16 +19,17 @@ def test_predict_preprocesses_grayscale_and_maps_class(monkeypatch):
             logits[0, 6] = 1000  # Stable softmax must not overflow.
             return logits
 
-    monkeypatch.setattr(serve.app.state, "model", Model(), raising=False)
+    monkeypatch.setattr(serve, "model", Model())
     stream = BytesIO()
     Image.new("L", (128, 128), 128).save(stream, format="PNG")
     stream.seek(0)
     result = serve.predict(UploadFile(filename="sample.png", file=stream))
-    assert result == {"category": "Noodles/Pasta", "confidence": 1.0}
+    assert result == {"category": "Noodles-Pasta", "confidence": 1.0}
     assert stream.closed
 
 
-def test_predict_rejects_invalid_image():
+def test_predict_rejects_invalid_image(monkeypatch):
+    monkeypatch.setattr(serve, "model", object())
     with pytest.raises(HTTPException) as error:
         serve.predict(UploadFile(filename="bad.jpg", file=BytesIO(b"invalid")))
     assert error.value.status_code == 400

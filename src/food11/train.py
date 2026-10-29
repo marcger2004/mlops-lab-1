@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-import mlflow
 import mlflow.pytorch
 import torch
 from torch import nn
@@ -11,6 +10,9 @@ from torch.optim import Adam
 from torch.utils.data import DataLoader
 from torchvision import datasets, models
 
+from .validate_data import validate
+
+import mlflow
 
 DATASET_ROOTS = {
     "processed": Path("data/food11_processed"),
@@ -100,6 +102,9 @@ def train(args: argparse.Namespace) -> None:
     mlflow.set_tracking_uri(args.tracking_uri)
     mlflow.set_experiment(args.experiment)
     dataset_root = DATASET_ROOTS[args.dataset]
+    checks = validate(dataset_root)
+    if not all(checks.values()):
+        raise ValueError(f"Dataset contract failed: {[key for key, passed in checks.items() if not passed]}")
     loaders, classes = build_dataloaders(dataset_root, args.batch_size, args.num_workers)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

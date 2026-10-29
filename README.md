@@ -100,3 +100,7 @@ uv run python -m food11.train --dataset mini --epochs 5 --lr 0.001 --batch-size 
 The training script logs parameters, per-epoch training and validation metrics,
 final evaluation accuracy, and the trained PyTorch model to the `food11`
 experiment. Use `--dataset processed` for the full processed dataset.
+
+## Lab 5: CI/CD
+
+See [Lab 5 answers and pipeline](lab/lab5.md). Run `uv run ruff check src tests`, `uv run pytest -q`, and `uv run python -m food11.validate_data data/food11_processed_mini`. The GitHub workflow tests, smoke-checks the container, and publishes SHA-tagged images on main. Promote registered candidates with `uv run python -m food11.promote --version N --n TEST_SIZE`.

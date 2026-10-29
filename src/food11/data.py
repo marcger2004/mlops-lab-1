@@ -14,12 +14,26 @@ FOOD11_CLASSES = [
     "Egg",
     "Fried food",
     "Meat",
-    "Noodles/Pasta",
+    "Noodles-Pasta",
     "Rice",
     "Seafood",
     "Soup",
-    "Vegetable/Fruit",
+    "Vegetable-Fruit",
 ]
+
+
+CLASSES = FOOD11_CLASSES
+
+
+def category_from_filename(filename: str) -> str:
+    label = _extract_label(filename)
+    if label is None:
+        raise ValueError(f"Invalid Food-11 filename: {filename}")
+    return _label_to_class_name(label)
+
+
+def resize_image(img: Image.Image, size: int = 128) -> Image.Image:
+    return img.convert("RGB").resize((size, size), Image.Resampling.LANCZOS)
 
 
 def _extract_label(file_name: str) -> int | None:
@@ -41,7 +55,7 @@ def _label_to_class_name(label: int) -> str:
 
 def _copy_resized_image(source_file: Path, target_file: Path) -> None:
     with Image.open(source_file) as image:
-        resized_image = image.resize((128, 128), Image.Resampling.LANCZOS)
+        resized_image = resize_image(image)
         resized_image.save(target_file)
 
 

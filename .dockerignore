@@ -14,3 +14,6 @@ tests/
 *.log
 .agents/
 .codex/
+.uv-cache/
+.ruff_cache/
+.test-tmp*/

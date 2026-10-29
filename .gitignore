@@ -7,3 +7,9 @@ mlflow.db-*
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+.uv-cache/
+.ruff_cache/
+
+.test-tmp/
+.test-tmp-*/
