@@ -120,6 +120,14 @@ def prepare_food11_data(
             for source_file in files_to_copy:
                 _copy_resized_image(source_file, mini_dir / source_file.name)
 
+    # Use the encoded, resized content so the cleanup matches the validator.
+    if __package__:
+        from .deduplicate import deduplicate_dataset
+    else:
+        from deduplicate import deduplicate_dataset
+
+    deduplicate_dataset(processed_root, apply=True)
+    deduplicate_dataset(mini_root, apply=True)
     return {"raw_root": raw_root, "processed_root": processed_root, "mini_root": mini_root}
 
 

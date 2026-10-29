@@ -20,8 +20,8 @@ mlops-lab-1 = "food11.cli:main"
 [dependency-groups]
 dev = [
 	"pytest>=8.0",
-    "ruff>=0.11",
-    "httpx>=0.28",
+	"ruff>=0.11",
+	"httpx2>=2.13",
 ]
 
 [build-system]

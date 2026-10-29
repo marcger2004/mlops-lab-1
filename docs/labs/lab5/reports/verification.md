@@ -6,33 +6,66 @@
 
 | Check | Result |
 | --- | --- |
-| Python tests | 13 passed |
+| Python tests | 15 passed; deprecation warnings treated as errors |
 | Ruff | Passed |
 | Git whitespace check | Passed |
 | Dataset class directories | Passed |
 | RGB mode and 128 x 128 image dimensions | Passed |
 | Minimum images per class | Passed |
 | Training/validation class balance | Passed |
-| No duplicate images across splits | Failed: 43 duplicate occurrences |
+| No duplicate images across splits | Passed for full and mini processed datasets |
 
-The evaluation split contains 1096 images. The existing duplicate occurrences
-are listed in the [content-hash audit](data-validation.txt). Training now checks
-the data contract before creating data loaders, so existing leakage blocks new
-training runs until the dataset is corrected and tracked with DVC.
+The mini evaluation split still contains 1096 images. All five contract checks
+pass on both processed datasets. The [machine-readable contract results](data-contract.json)
+record split counts and check outcomes.
 
-The deliberate-copy experiment also failed the cross-split duplicate check.
-The temporary copy was removed afterward. The two legacy nested class folders
-were renamed locally to Noodles-Pasta and Vegetable-Fruit. Existing DVC metadata
-was not changed; restoring an older dataset revision can restore the old layout.
+## Duplicate cleanup
 
-The test suite emitted two upstream TestClient deprecation warnings.
+The cleanup removed 43 duplicate copies from the mini dataset and 612 from the
+full processed dataset. It preserves evaluation first, then validation, and
+removes overlapping copies from lower-priority splits. Raw source images are
+unchanged. The [cleanup manifest](deduplication.json) records every removed path,
+its retained counterpart, and the file hash. The [initial audit](data-validation.txt)
+is retained as historical evidence of the original mini dataset issue.
+
+Preprocessing now applies the same cleanup automatically. Regression tests cover
+dry runs, evaluation preservation, repeat runs, preprocessing, and raw-data
+preservation. Old model accuracies are not re-certified by this cleanup; retrain
+and evaluate candidates on the corrected datasets.
+
+## Dependency compatibility
+
+The test client now uses httpx2 and the lockfile selects Starlette 1.10.0.
+Both original deprecation warnings are resolved without suppressing warnings.
+Verification uses `python -W error::DeprecationWarning -m pytest -q`.
+
+## DVC publication
+
+`dvc add data` recorded the corrected dataset locally:
+
+- Directory hash: `b38c87deafd98a0d322d43f803586737.dir`.
+- File count: 35923.
+- Total size: 1274306970 bytes.
+
+Upload to the configured DagsHub DVC remote is pending explicit user approval.
+The GitHub data pointer remains at the previous revision until the corrected
+content has been uploaded successfully. Do not expect `dvc pull` to restore the
+corrected version yet. Existing raw dataset contents remain unchanged.
+
+To correct an older local processed dataset without rebuilding it:
+
+```powershell
+uv run python -m food11.deduplicate data/food11_processed data/food11_processed_mini --apply
+uv run python -m food11.validate_data data/food11_processed
+uv run python -m food11.validate_data data/food11_processed_mini
+```
 
 ## Experiments still to complete
 
 | Experiment | Status |
 | --- | --- |
 | Local container smoke test and registry pull | Docker engine was stopped |
-| Real candidate training and promotion | MLflow was stopped; dataset leakage also blocks training |
+| Real candidate training and promotion | MLflow was stopped; dataset contract now passes |
 | First/second Actions timing comparison | Not measured |
 | Required checks and failing-then-fixed pull request | Not demonstrated |
 | GHCR image publication | Passed in the initial Actions run |

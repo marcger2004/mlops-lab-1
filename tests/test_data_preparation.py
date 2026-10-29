@@ -29,9 +29,9 @@ def test_prepare_food11_data_creates_processed_folders_and_limits_mini_dataset(t
 
 
     for idx, category in enumerate(categories):
-        for split in ["training", "evaluation", "validation"]:
+        for split_index, split in enumerate(["training", "evaluation", "validation"]):
             for i in range(120):
-                image = Image.new("RGB", (512, 512), color=(idx * 40, i, 0))
+                image = Image.new("RGB", (512, 512), color=(idx * 40, i, split_index * 80))
                 image.save(raw_root / split / f"{idx}_{i}.jpg")
 
     processed_root = tmp_path / "food11_processed"

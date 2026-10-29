@@ -1,0 +1,3289 @@
+{
+  "applied": true,
+  "priority": [
+    "evaluation",
+    "validation",
+    "training"
+  ],
+  "datasets": {
+    "data/food11_processed": [
+      {
+        "removed": "validation/Bread/0_102.jpg",
+        "kept": "evaluation/Bread/0_63.jpg",
+        "md5": "ac552bfa8a63b01101a227c910592fa7"
+      },
+      {
+        "removed": "validation/Bread/0_107.jpg",
+        "kept": "evaluation/Bread/0_82.jpg",
+        "md5": "8f74689389042d70491b4356acfafe2e"
+      },
+      {
+        "removed": "validation/Bread/0_11.jpg",
+        "kept": "evaluation/Bread/0_13.jpg",
+        "md5": "20b4d6f1c6c24add8b124a3c85071b60"
+      },
+      {
+        "removed": "validation/Bread/0_110.jpg",
+        "kept": "evaluation/Bread/0_349.jpg",
+        "md5": "26d87acb23436c74378fd5db7b690793"
+      },
+      {
+        "removed": "validation/Bread/0_112.jpg",
+        "kept": "evaluation/Bread/0_68.jpg",
+        "md5": "132f7cc6f3c16726ad594541faf8677e"
+      },
+      {
+        "removed": "validation/Bread/0_126.jpg",
+        "kept": "evaluation/Bread/0_93.jpg",
+        "md5": "0d992e71bda21760ab9592247f4ce80f"
+      },
+      {
+        "removed": "validation/Bread/0_129.jpg",
+        "kept": "evaluation/Bread/0_138.jpg",
+        "md5": "13f57a37dd78f0214b24cabfd200d58d"
+      },
+      {
+        "removed": "validation/Bread/0_136.jpg",
+        "kept": "evaluation/Bread/0_325.jpg",
+        "md5": "2801d792c1494c4285784af2034fa0ed"
+      },
+      {
+        "removed": "validation/Bread/0_144.jpg",
+        "kept": "evaluation/Bread/0_238.jpg",
+        "md5": "a3637b4e708547f57b84727547fe1fce"
+      },
+      {
+        "removed": "validation/Bread/0_150.jpg",
+        "kept": "evaluation/Bread/0_17.jpg",
+        "md5": "a7c7d13ff14b4d70c6e95d1728812b00"
+      },
+      {
+        "removed": "validation/Bread/0_152.jpg",
+        "kept": "evaluation/Bread/0_149.jpg",
+        "md5": "e5a6a7e39f5928eafba2facf096c8294"
+      },
+      {
+        "removed": "validation/Bread/0_165.jpg",
+        "kept": "evaluation/Bread/0_28.jpg",
+        "md5": "d32a511c26802aaff31f091493f50439"
+      },
+      {
+        "removed": "validation/Bread/0_167.jpg",
+        "kept": "evaluation/Bread/0_105.jpg",
+        "md5": "81590e556bf77cb0c46e869cdbb53f34"
+      },
+      {
+        "removed": "validation/Bread/0_174.jpg",
+        "kept": "evaluation/Bread/0_1.jpg",
+        "md5": "5692f108eb4daa330adf11cb0a58229f"
+      },
+      {
+        "removed": "validation/Bread/0_177.jpg",
+        "kept": "evaluation/Bread/0_266.jpg",
+        "md5": "0220e7b57341b6828457dd7b989b6314"
+      },
+      {
+        "removed": "validation/Bread/0_188.jpg",
+        "kept": "evaluation/Bread/0_282.jpg",
+        "md5": "9a38f9a37d3bcf3c949e27a0ec281481"
+      },
+      {
+        "removed": "validation/Bread/0_189.jpg",
+        "kept": "evaluation/Bread/0_276.jpg",
+        "md5": "ae9ea5cd3a98cd79ebf821a99babde5a"
+      },
+      {
+        "removed": "validation/Bread/0_19.jpg",
+        "kept": "evaluation/Bread/0_39.jpg",
+        "md5": "bac109831740d45689337c2acac4fae5"
+      },
+      {
+        "removed": "validation/Bread/0_191.jpg",
+        "kept": "evaluation/Bread/0_366.jpg",
+        "md5": "862338a69794a2ae593b9f98721299bb"
+      },
+      {
+        "removed": "validation/Bread/0_208.jpg",
+        "kept": "evaluation/Bread/0_312.jpg",
+        "md5": "ff792e4f8a6107c5c3eaecfdc93cd405"
+      },
+      {
+        "removed": "validation/Bread/0_216.jpg",
+        "kept": "evaluation/Bread/0_283.jpg",
+        "md5": "f44ba4e3a8d106992d0b6209dace4e8e"
+      },
+      {
+        "removed": "validation/Bread/0_222.jpg",
+        "kept": "evaluation/Bread/0_155.jpg",
+        "md5": "2ffb1cc76ad59834eda5b001ea325e67"
+      },
+      {
+        "removed": "validation/Bread/0_226.jpg",
+        "kept": "evaluation/Bread/0_54.jpg",
+        "md5": "5e939f8d7435ba36ca558930de903f33"
+      },
+      {
+        "removed": "validation/Bread/0_23.jpg",
+        "kept": "evaluation/Bread/0_125.jpg",
+        "md5": "17db5f04096ab2a21219fa179abb8028"
+      },
+      {
+        "removed": "validation/Bread/0_233.jpg",
+        "kept": "evaluation/Bread/0_230.jpg",
+        "md5": "3a55e8db16a35dd54759e95ae7d27c8b"
+      },
+      {
+        "removed": "validation/Bread/0_242.jpg",
+        "kept": "evaluation/Bread/0_89.jpg",
+        "md5": "18141001da02069b9ff8e21a004a4cfb"
+      },
+      {
+        "removed": "validation/Bread/0_243.jpg",
+        "kept": "evaluation/Bread/0_207.jpg",
+        "md5": "0c979c3117e24ab84b8c90c7430c6b5a"
+      },
+      {
+        "removed": "validation/Bread/0_248.jpg",
+        "kept": "evaluation/Bread/0_342.jpg",
+        "md5": "0d0bec503ab349a9428aa0fd727015a5"
+      },
+      {
+        "removed": "validation/Bread/0_252.jpg",
+        "kept": "evaluation/Bread/0_315.jpg",
+        "md5": "c23795c7821ef6f1ecbd1982ab8c66db"
+      },
+      {
+        "removed": "validation/Bread/0_254.jpg",
+        "kept": "evaluation/Bread/0_319.jpg",
+        "md5": "f82766f4f7907ae29b5797e6d428ec68"
+      },
+      {
+        "removed": "validation/Bread/0_259.jpg",
+        "kept": "evaluation/Bread/0_223.jpg",
+        "md5": "31b9148540904c497876f0250c9109ef"
+      },
+      {
+        "removed": "validation/Bread/0_262.jpg",
+        "kept": "evaluation/Bread/0_277.jpg",
+        "md5": "2cca61c73c744b44b2d96d2e9fa764b4"
+      },
+      {
+        "removed": "validation/Bread/0_265.jpg",
+        "kept": "evaluation/Bread/0_141.jpg",
+        "md5": "5cdc0e5edce3b7f91fb454292db25cea"
+      },
+      {
+        "removed": "validation/Bread/0_275.jpg",
+        "kept": "evaluation/Bread/0_326.jpg",
+        "md5": "d2b2be0ae260e1220017802e7bf5b3cd"
+      },
+      {
+        "removed": "validation/Bread/0_28.jpg",
+        "kept": "evaluation/Bread/0_171.jpg",
+        "md5": "61c1fb598c1db4548403e13c50c954f4"
+      },
+      {
+        "removed": "validation/Bread/0_284.jpg",
+        "kept": "evaluation/Bread/0_257.jpg",
+        "md5": "0f58f698243eeffe61dd97fd3f1e93e8"
+      },
+      {
+        "removed": "validation/Bread/0_287.jpg",
+        "kept": "evaluation/Bread/0_189.jpg",
+        "md5": "af04be423471a6949905aa622b70e510"
+      },
+      {
+        "removed": "validation/Bread/0_29.jpg",
+        "kept": "evaluation/Bread/0_221.jpg",
+        "md5": "9a08a30b18cc141f845f3862d6fc74fa"
+      },
+      {
+        "removed": "validation/Bread/0_303.jpg",
+        "kept": "evaluation/Bread/0_307.jpg",
+        "md5": "8adceda9a91a9319f6a7f498b22d235b"
+      },
+      {
+        "removed": "validation/Bread/0_304.jpg",
+        "kept": "evaluation/Bread/0_114.jpg",
+        "md5": "be85744de8076fe4989b8e0a56b6d95e"
+      },
+      {
+        "removed": "validation/Bread/0_314.jpg",
+        "kept": "evaluation/Bread/0_344.jpg",
+        "md5": "8378b504e156dbc321f7952043417433"
+      },
+      {
+        "removed": "validation/Bread/0_316.jpg",
+        "kept": "evaluation/Bread/0_314.jpg",
+        "md5": "d4beb21bca9e9bf5202a6bd19cd3d4f2"
+      },
+      {
+        "removed": "validation/Bread/0_318.jpg",
+        "kept": "evaluation/Bread/0_59.jpg",
+        "md5": "6502d3b70954a0f702f16fe47dbf9e1f"
+      },
+      {
+        "removed": "validation/Bread/0_324.jpg",
+        "kept": "evaluation/Bread/0_2.jpg",
+        "md5": "6186cb60fb202132c25ba14681a50548"
+      },
+      {
+        "removed": "validation/Bread/0_350.jpg",
+        "kept": "evaluation/Bread/0_20.jpg",
+        "md5": "488261557a0cad330d771c988f502f58"
+      },
+      {
+        "removed": "validation/Bread/0_355.jpg",
+        "kept": "evaluation/Bread/0_259.jpg",
+        "md5": "0ab73c603bae5754a2481c61d0d8f1f8"
+      },
+      {
+        "removed": "validation/Bread/0_61.jpg",
+        "kept": "evaluation/Bread/0_250.jpg",
+        "md5": "d2fd4721cbd5d7d59ebdfb99360acddc"
+      },
+      {
+        "removed": "validation/Bread/0_62.jpg",
+        "kept": "evaluation/Bread/0_304.jpg",
+        "md5": "3a38f158c8906e2a3e249d61ba1ac8f3"
+      },
+      {
+        "removed": "validation/Bread/0_63.jpg",
+        "kept": "evaluation/Bread/0_163.jpg",
+        "md5": "4bed47ec0de7a66e4a2c60a4bb26a7e0"
+      },
+      {
+        "removed": "validation/Bread/0_64.jpg",
+        "kept": "evaluation/Bread/0_255.jpg",
+        "md5": "f6c2b25bdae3f2527ad198715263033c"
+      },
+      {
+        "removed": "validation/Bread/0_65.jpg",
+        "kept": "evaluation/Bread/0_197.jpg",
+        "md5": "b852b5f6ba11ff707a4685ae134ccb9b"
+      },
+      {
+        "removed": "validation/Bread/0_78.jpg",
+        "kept": "evaluation/Bread/0_113.jpg",
+        "md5": "f4f9fa7555f6c1776b78d1860dc89abc"
+      },
+      {
+        "removed": "validation/Bread/0_83.jpg",
+        "kept": "evaluation/Bread/0_334.jpg",
+        "md5": "5bed6f5d5b208118a050092dcdb79f78"
+      },
+      {
+        "removed": "validation/Bread/0_88.jpg",
+        "kept": "evaluation/Bread/0_194.jpg",
+        "md5": "cbff4d5c3b4de92734d8b5b33bc1445f"
+      },
+      {
+        "removed": "validation/Bread/0_90.jpg",
+        "kept": "evaluation/Bread/0_248.jpg",
+        "md5": "48e68f7d9985938e0fdcd71de17bc926"
+      },
+      {
+        "removed": "validation/Bread/0_96.jpg",
+        "kept": "evaluation/Bread/0_148.jpg",
+        "md5": "73279027ac08da5a787fa0de604143a4"
+      },
+      {
+        "removed": "validation/Dessert/2_108.jpg",
+        "kept": "evaluation/Dessert/2_96.jpg",
+        "md5": "884243eb35bbad0435bb3c50c5222f91"
+      },
+      {
+        "removed": "validation/Dessert/2_12.jpg",
+        "kept": "evaluation/Dessert/2_14.jpg",
+        "md5": "f9051fe04a3e3a82672e243cc1c1f28f"
+      },
+      {
+        "removed": "validation/Dessert/2_120.jpg",
+        "kept": "evaluation/Dessert/2_112.jpg",
+        "md5": "ad6d0b1b0f31e92fc20422b1c35f7df0"
+      },
+      {
+        "removed": "validation/Dessert/2_129.jpg",
+        "kept": "evaluation/Dessert/2_117.jpg",
+        "md5": "14acb9c80a0d93926cdd8bbf85a25574"
+      },
+      {
+        "removed": "validation/Dessert/2_132.jpg",
+        "kept": "evaluation/Dessert/2_129.jpg",
+        "md5": "217ff9a5a341439a9cba6fdcde40e062"
+      },
+      {
+        "removed": "validation/Dessert/2_133.jpg",
+        "kept": "evaluation/Dessert/2_134.jpg",
+        "md5": "f332465e3c6a3192524fbf6f0cbb22a8"
+      },
+      {
+        "removed": "validation/Dessert/2_141.jpg",
+        "kept": "evaluation/Dessert/2_139.jpg",
+        "md5": "4ec41263fe4a9e2213e04b71a86d436e"
+      },
+      {
+        "removed": "validation/Dessert/2_150.jpg",
+        "kept": "evaluation/Dessert/2_158.jpg",
+        "md5": "170c8feaadbc9995aa819e9d2c1af690"
+      },
+      {
+        "removed": "validation/Dessert/2_155.jpg",
+        "kept": "evaluation/Dessert/2_160.jpg",
+        "md5": "ccadc59ad3f45770c2e21cb4af05611d"
+      },
+      {
+        "removed": "validation/Dessert/2_164.jpg",
+        "kept": "evaluation/Dessert/2_166.jpg",
+        "md5": "221135e4243fa277d141175c981d2a41"
+      },
+      {
+        "removed": "validation/Dessert/2_176.jpg",
+        "kept": "evaluation/Dessert/2_174.jpg",
+        "md5": "b39e669d21500fee0c32a5ede2c110fe"
+      },
+      {
+        "removed": "validation/Dessert/2_18.jpg",
+        "kept": "evaluation/Dessert/2_16.jpg",
+        "md5": "05281037d7ac401482b3fb2978581503"
+      },
+      {
+        "removed": "validation/Dessert/2_225.jpg",
+        "kept": "evaluation/Dessert/2_213.jpg",
+        "md5": "47e915a920431ab909b54e8669b699e8"
+      },
+      {
+        "removed": "validation/Dessert/2_228.jpg",
+        "kept": "evaluation/Dessert/2_214.jpg",
+        "md5": "0f34984bdee322178de92aeb97ad6d64"
+      },
+      {
+        "removed": "validation/Dessert/2_233.jpg",
+        "kept": "evaluation/Dessert/2_221.jpg",
+        "md5": "075cebc6fa753a4139ea401d7031a25f"
+      },
+      {
+        "removed": "validation/Dessert/2_242.jpg",
+        "kept": "evaluation/Dessert/2_227.jpg",
+        "md5": "d5af5bdc16b089febc94888bdba95197"
+      },
+      {
+        "removed": "validation/Dessert/2_245.jpg",
+        "kept": "evaluation/Dessert/2_232.jpg",
+        "md5": "64589317d1ce13498f85cfa5f2a4adb3"
+      },
+      {
+        "removed": "validation/Dessert/2_254.jpg",
+        "kept": "evaluation/Dessert/2_237.jpg",
+        "md5": "9c523fb3f62d328dbc7e7640903f6173"
+      },
+      {
+        "removed": "validation/Dessert/2_267.jpg",
+        "kept": "evaluation/Dessert/2_249.jpg",
+        "md5": "f9c7f9de26ece29fb31216a72748ec69"
+      },
+      {
+        "removed": "validation/Dessert/2_283.jpg",
+        "kept": "evaluation/Dessert/2_264.jpg",
+        "md5": "fc18ac74837c300ddb0e5c135adf9d01"
+      },
+      {
+        "removed": "validation/Dessert/2_289.jpg",
+        "kept": "evaluation/Dessert/2_270.jpg",
+        "md5": "65c9ea4ebb01b7e4c113a795e452939e"
+      },
+      {
+        "removed": "validation/Dessert/2_29.jpg",
+        "kept": "evaluation/Dessert/2_26.jpg",
+        "md5": "452311cbd1943fc96692a0c26b17fb70"
+      },
+      {
+        "removed": "validation/Dessert/2_300.jpg",
+        "kept": "evaluation/Dessert/2_274.jpg",
+        "md5": "524713079b46778c8a1f61709e762cd9"
+      },
+      {
+        "removed": "validation/Dessert/2_311.jpg",
+        "kept": "evaluation/Dessert/2_289.jpg",
+        "md5": "fb0d4c2270aa0e6338f09258a87ad64f"
+      },
+      {
+        "removed": "validation/Dessert/2_332.jpg",
+        "kept": "evaluation/Dessert/2_304.jpg",
+        "md5": "b283a89ccd73c8878609a15500334bee"
+      },
+      {
+        "removed": "validation/Dessert/2_338.jpg",
+        "kept": "evaluation/Dessert/2_309.jpg",
+        "md5": "d8fdb6870d50d525bee2dbc584e19fac"
+      },
+      {
+        "removed": "validation/Dessert/2_349.jpg",
+        "kept": "evaluation/Dessert/2_316.jpg",
+        "md5": "07aadea1a1ff7b2f08ed9f9f39090067"
+      },
+      {
+        "removed": "validation/Dessert/2_351.jpg",
+        "kept": "evaluation/Dessert/2_320.jpg",
+        "md5": "e4db018a0a35916d25634a7a82ef8a3e"
+      },
+      {
+        "removed": "validation/Dessert/2_362.jpg",
+        "kept": "evaluation/Dessert/2_331.jpg",
+        "md5": "cf8b5199e95e92bcb0b0be909a0bf098"
+      },
+      {
+        "removed": "validation/Dessert/2_366.jpg",
+        "kept": "evaluation/Dessert/2_336.jpg",
+        "md5": "fe5c6a5701870f45386ffeea5f1d7d4f"
+      },
+      {
+        "removed": "validation/Dessert/2_373.jpg",
+        "kept": "evaluation/Dessert/2_345.jpg",
+        "md5": "4467bfdad8baf08946c4a98615114420"
+      },
+      {
+        "removed": "validation/Dessert/2_380.jpg",
+        "kept": "evaluation/Dessert/2_354.jpg",
+        "md5": "c580ce25b49c99e0567233a4a6c2826a"
+      },
+      {
+        "removed": "validation/Dessert/2_382.jpg",
+        "kept": "evaluation/Dessert/2_357.jpg",
+        "md5": "4817e285c43c78edb963803b0f553481"
+      },
+      {
+        "removed": "validation/Dessert/2_385.jpg",
+        "kept": "evaluation/Dessert/2_358.jpg",
+        "md5": "7f033119718c8a95fc9f7e9eca01dbdc"
+      },
+      {
+        "removed": "validation/Dessert/2_387.jpg",
+        "kept": "evaluation/Dessert/2_362.jpg",
+        "md5": "d4c1642cd4b547f27a08c9aa7453d34e"
+      },
+      {
+        "removed": "validation/Dessert/2_402.jpg",
+        "kept": "evaluation/Dessert/2_376.jpg",
+        "md5": "1431aba02fb7ceee409de8c063e3d9d2"
+      },
+      {
+        "removed": "validation/Dessert/2_420.jpg",
+        "kept": "evaluation/Dessert/2_402.jpg",
+        "md5": "b3f5882602175cf1cdf9d5406cbfffcf"
+      },
+      {
+        "removed": "validation/Dessert/2_423.jpg",
+        "kept": "evaluation/Dessert/2_406.jpg",
+        "md5": "471a64710c98b5c0c999b370d74e105f"
+      },
+      {
+        "removed": "validation/Dessert/2_425.jpg",
+        "kept": "evaluation/Dessert/2_408.jpg",
+        "md5": "0a01309a2e90b45f9fc018f207cd6bec"
+      },
+      {
+        "removed": "validation/Dessert/2_426.jpg",
+        "kept": "evaluation/Dessert/2_410.jpg",
+        "md5": "ab8b1423f2384d78a90f03ea1688bebc"
+      },
+      {
+        "removed": "validation/Dessert/2_433.jpg",
+        "kept": "evaluation/Dessert/2_417.jpg",
+        "md5": "517f1aad5676ad47db7382807de52fab"
+      },
+      {
+        "removed": "validation/Dessert/2_439.jpg",
+        "kept": "evaluation/Dessert/2_422.jpg",
+        "md5": "c06094abc6f173633849ec73a1d80e65"
+      },
+      {
+        "removed": "validation/Dessert/2_454.jpg",
+        "kept": "evaluation/Dessert/2_433.jpg",
+        "md5": "e87dc73b4a49e556a2272db9d39a7846"
+      },
+      {
+        "removed": "validation/Dessert/2_456.jpg",
+        "kept": "evaluation/Dessert/2_436.jpg",
+        "md5": "57cd4cc6a5fbcd09bb0b21de155a5ce8"
+      },
+      {
+        "removed": "validation/Dessert/2_458.jpg",
+        "kept": "evaluation/Dessert/2_441.jpg",
+        "md5": "ead4fde384ac06ab8e29ab56186f39a6"
+      },
+      {
+        "removed": "validation/Dessert/2_462.jpg",
+        "kept": "evaluation/Dessert/2_446.jpg",
+        "md5": "321c7158be681ee17553eb1e3dc2f86a"
+      },
+      {
+        "removed": "validation/Dessert/2_465.jpg",
+        "kept": "evaluation/Dessert/2_450.jpg",
+        "md5": "029b557fb04556c05b83e2e64d990076"
+      },
+      {
+        "removed": "validation/Dessert/2_479.jpg",
+        "kept": "evaluation/Dessert/2_472.jpg",
+        "md5": "5ea7177f918574e438a18e31394fd609"
+      },
+      {
+        "removed": "validation/Dessert/2_482.jpg",
+        "kept": "evaluation/Dessert/2_477.jpg",
+        "md5": "7d558b2457792bfa7cc8a1ee8606781b"
+      },
+      {
+        "removed": "validation/Dessert/2_488.jpg",
+        "kept": "evaluation/Dessert/2_484.jpg",
+        "md5": "23be261092900c2639ef958572b37b0f"
+      },
+      {
+        "removed": "validation/Dessert/2_489.jpg",
+        "kept": "evaluation/Dessert/2_485.jpg",
+        "md5": "9b11707bcd0c202e600be028c61daffe"
+      },
+      {
+        "removed": "validation/Dessert/2_49.jpg",
+        "kept": "evaluation/Dessert/2_40.jpg",
+        "md5": "7474ace3b79fbc4333cbb5b66fb6afb0"
+      },
+      {
+        "removed": "validation/Dessert/2_491.jpg",
+        "kept": "evaluation/Dessert/2_489.jpg",
+        "md5": "6588158660ec48d257710eba6877a2b8"
+      },
+      {
+        "removed": "validation/Dessert/2_53.jpg",
+        "kept": "evaluation/Dessert/2_45.jpg",
+        "md5": "09495a184a443fbae61e9b6b8d1422b4"
+      },
+      {
+        "removed": "validation/Dessert/2_62.jpg",
+        "kept": "evaluation/Dessert/2_56.jpg",
+        "md5": "b40f92f85f677ed17476d667ee5c9a1e"
+      },
+      {
+        "removed": "validation/Dessert/2_78.jpg",
+        "kept": "evaluation/Dessert/2_66.jpg",
+        "md5": "81c3760451e53b3f6ffe74c20b126250"
+      },
+      {
+        "removed": "validation/Dessert/2_8.jpg",
+        "kept": "evaluation/Dessert/2_9.jpg",
+        "md5": "e391e12998d305be8569a1336e2fdcc4"
+      },
+      {
+        "removed": "validation/Dessert/2_83.jpg",
+        "kept": "evaluation/Dessert/2_74.jpg",
+        "md5": "63fbe509c7f84c9a37878ded939376ba"
+      },
+      {
+        "removed": "validation/Dessert/2_86.jpg",
+        "kept": "evaluation/Dessert/2_75.jpg",
+        "md5": "3e98d32d761f6afb7d2173f81a1d953c"
+      },
+      {
+        "removed": "validation/Dessert/2_91.jpg",
+        "kept": "evaluation/Dessert/2_80.jpg",
+        "md5": "541a22209c4dc280bc24fcaf0415ccc7"
+      },
+      {
+        "removed": "validation/Fried food/4_100.jpg",
+        "kept": "evaluation/Fried food/4_46.jpg",
+        "md5": "a40712b15510f680cd4ea015205b0a36"
+      },
+      {
+        "removed": "validation/Fried food/4_103.jpg",
+        "kept": "evaluation/Fried food/4_147.jpg",
+        "md5": "66d18571ea99a0018654e1829ac3c238"
+      },
+      {
+        "removed": "validation/Fried food/4_13.jpg",
+        "kept": "evaluation/Fried food/4_159.jpg",
+        "md5": "22000347d9956301174223ecb16ad274"
+      },
+      {
+        "removed": "validation/Fried food/4_130.jpg",
+        "kept": "evaluation/Fried food/4_259.jpg",
+        "md5": "b58f736f2a0eab5e4b1c6773f49ff748"
+      },
+      {
+        "removed": "validation/Fried food/4_144.jpg",
+        "kept": "evaluation/Fried food/4_234.jpg",
+        "md5": "f34d58631f86c9e13aa2d346b4e8eaf8"
+      },
+      {
+        "removed": "validation/Fried food/4_146.jpg",
+        "kept": "evaluation/Fried food/4_52.jpg",
+        "md5": "3471f68aa3e0b680b52bce047808d08e"
+      },
+      {
+        "removed": "validation/Fried food/4_149.jpg",
+        "kept": "evaluation/Fried food/4_216.jpg",
+        "md5": "7ded42e17222fb7517f1879175a71307"
+      },
+      {
+        "removed": "validation/Fried food/4_150.jpg",
+        "kept": "evaluation/Fried food/4_265.jpg",
+        "md5": "5fadf8142008d8ed8bd8375cfe864cdf"
+      },
+      {
+        "removed": "validation/Fried food/4_163.jpg",
+        "kept": "evaluation/Fried food/4_219.jpg",
+        "md5": "043b6fe8c0f18b5faa57de928b4f6919"
+      },
+      {
+        "removed": "validation/Fried food/4_173.jpg",
+        "kept": "evaluation/Fried food/4_225.jpg",
+        "md5": "f9b27531bc505e1b945e4ec488bda7ca"
+      },
+      {
+        "removed": "validation/Fried food/4_189.jpg",
+        "kept": "evaluation/Fried food/4_51.jpg",
+        "md5": "7d95c1108c9882f5c72d7b1a3639de3f"
+      },
+      {
+        "removed": "validation/Fried food/4_198.jpg",
+        "kept": "evaluation/Fried food/4_266.jpg",
+        "md5": "39516071508c582408f984353418a68f"
+      },
+      {
+        "removed": "validation/Fried food/4_200.jpg",
+        "kept": "evaluation/Fried food/4_85.jpg",
+        "md5": "3d2872990bb70cd3377b36cafe91fbae"
+      },
+      {
+        "removed": "validation/Fried food/4_202.jpg",
+        "kept": "evaluation/Fried food/4_124.jpg",
+        "md5": "120ce4aa10e723da140078be07b4e7e8"
+      },
+      {
+        "removed": "validation/Fried food/4_204.jpg",
+        "kept": "evaluation/Fried food/4_209.jpg",
+        "md5": "b2179554bd9815dcdd05008a9ba80b38"
+      },
+      {
+        "removed": "validation/Fried food/4_209.jpg",
+        "kept": "evaluation/Fried food/4_240.jpg",
+        "md5": "444e6a8ff08172e81384de26eef4b276"
+      },
+      {
+        "removed": "validation/Fried food/4_215.jpg",
+        "kept": "evaluation/Fried food/4_146.jpg",
+        "md5": "cecc6eb815e7217d8094db66b86aa63b"
+      },
+      {
+        "removed": "validation/Fried food/4_216.jpg",
+        "kept": "evaluation/Fried food/4_170.jpg",
+        "md5": "df276f091f0640fc362427d91c40588b"
+      },
+      {
+        "removed": "validation/Fried food/4_255.jpg",
+        "kept": "evaluation/Fried food/4_182.jpg",
+        "md5": "35289efee2227bc200afaf823f855a43"
+      },
+      {
+        "removed": "validation/Fried food/4_304.jpg",
+        "kept": "evaluation/Fried food/4_174.jpg",
+        "md5": "a61c66e17be6b36e5f761bc3eeb95184"
+      },
+      {
+        "removed": "validation/Fried food/4_319.jpg",
+        "kept": "evaluation/Fried food/4_82.jpg",
+        "md5": "3e1e4cb58bbb922e4af9b432a4e2e498"
+      },
+      {
+        "removed": "validation/Fried food/4_37.jpg",
+        "kept": "evaluation/Fried food/4_183.jpg",
+        "md5": "c9116132a9f26be068a0bdd84322aa3f"
+      },
+      {
+        "removed": "validation/Fried food/4_47.jpg",
+        "kept": "evaluation/Fried food/4_49.jpg",
+        "md5": "e59631eab1fb9deffe843196e52c8fcf"
+      },
+      {
+        "removed": "validation/Fried food/4_52.jpg",
+        "kept": "evaluation/Fried food/4_34.jpg",
+        "md5": "3841907b7c657ecc867a642f7b1c006f"
+      },
+      {
+        "removed": "validation/Fried food/4_61.jpg",
+        "kept": "evaluation/Fried food/4_180.jpg",
+        "md5": "cc093827c915518f01616336d37d1eff"
+      },
+      {
+        "removed": "validation/Fried food/4_70.jpg",
+        "kept": "evaluation/Fried food/4_214.jpg",
+        "md5": "4b59b5de1b5c9143dbad2e02cfa148e0"
+      },
+      {
+        "removed": "validation/Fried food/4_74.jpg",
+        "kept": "evaluation/Fried food/4_197.jpg",
+        "md5": "3d818a72acb8c6b6e01e0c28e4b2d2d2"
+      },
+      {
+        "removed": "validation/Fried food/4_76.jpg",
+        "kept": "evaluation/Fried food/4_186.jpg",
+        "md5": "64c457b56000d7226afd6018c78225c5"
+      },
+      {
+        "removed": "validation/Fried food/4_86.jpg",
+        "kept": "evaluation/Fried food/4_211.jpg",
+        "md5": "da10c354d353897975ec427bfc6808cd"
+      },
+      {
+        "removed": "validation/Meat/5_103.jpg",
+        "kept": "evaluation/Meat/5_355.jpg",
+        "md5": "8e4626a6dfa74da5273a8cbc8197c7cc"
+      },
+      {
+        "removed": "validation/Meat/5_104.jpg",
+        "kept": "evaluation/Meat/5_306.jpg",
+        "md5": "cc0d697725033f4ac076948f7e300c96"
+      },
+      {
+        "removed": "validation/Meat/5_105.jpg",
+        "kept": "evaluation/Meat/5_310.jpg",
+        "md5": "b86f8fe84bca18f6da51c70b508a91af"
+      },
+      {
+        "removed": "validation/Meat/5_107.jpg",
+        "kept": "evaluation/Meat/5_166.jpg",
+        "md5": "ae8807a66c9d88fba9ffe315cdd2473e"
+      },
+      {
+        "removed": "validation/Meat/5_123.jpg",
+        "kept": "evaluation/Meat/5_13.jpg",
+        "md5": "ea71af77f522c66243f80864a60120e0"
+      },
+      {
+        "removed": "validation/Meat/5_132.jpg",
+        "kept": "evaluation/Meat/5_401.jpg",
+        "md5": "1acb15b96d21b4eb7570a59793eab899"
+      },
+      {
+        "removed": "validation/Meat/5_134.jpg",
+        "kept": "evaluation/Meat/5_245.jpg",
+        "md5": "b86bb3c11d5c22f3d5eb044c3e4e35e0"
+      },
+      {
+        "removed": "validation/Meat/5_147.jpg",
+        "kept": "evaluation/Meat/5_386.jpg",
+        "md5": "4f18f9581a095ae65526b2ac1126f070"
+      },
+      {
+        "removed": "validation/Meat/5_149.jpg",
+        "kept": "evaluation/Meat/5_412.jpg",
+        "md5": "e08e8252319a3bd9413737a455a84837"
+      },
+      {
+        "removed": "validation/Meat/5_151.jpg",
+        "kept": "evaluation/Meat/5_253.jpg",
+        "md5": "e43524f5563591d9044984e1a09521f3"
+      },
+      {
+        "removed": "validation/Meat/5_153.jpg",
+        "kept": "evaluation/Meat/5_399.jpg",
+        "md5": "0f433c0da9fc23908bd649d052fd06a0"
+      },
+      {
+        "removed": "validation/Meat/5_160.jpg",
+        "kept": "evaluation/Meat/5_244.jpg",
+        "md5": "e95b0c819f8f4280042bc1c3408c5073"
+      },
+      {
+        "removed": "validation/Meat/5_171.jpg",
+        "kept": "evaluation/Meat/5_274.jpg",
+        "md5": "697617fd9ac1eeb40ec3b4b695b3cd4a"
+      },
+      {
+        "removed": "validation/Meat/5_174.jpg",
+        "kept": "evaluation/Meat/5_119.jpg",
+        "md5": "4a2828d3a7e4b705df2362caa405dfd5"
+      },
+      {
+        "removed": "validation/Meat/5_181.jpg",
+        "kept": "evaluation/Meat/5_260.jpg",
+        "md5": "7b5c46c1e3f74e26c9c9d5924f79919c"
+      },
+      {
+        "removed": "validation/Meat/5_190.jpg",
+        "kept": "evaluation/Meat/5_200.jpg",
+        "md5": "32b577da3139e8bea95c017dc0881547"
+      },
+      {
+        "removed": "validation/Meat/5_196.jpg",
+        "kept": "evaluation/Meat/5_215.jpg",
+        "md5": "99586d5df4103d4e981ce4da8dac518b"
+      },
+      {
+        "removed": "validation/Meat/5_199.jpg",
+        "kept": "evaluation/Meat/5_127.jpg",
+        "md5": "de3abea4b155cdb17e1e90cdb670965d"
+      },
+      {
+        "removed": "validation/Meat/5_20.jpg",
+        "kept": "evaluation/Meat/5_396.jpg",
+        "md5": "6968cbe135d78e36dda2455c2cc241d2"
+      },
+      {
+        "removed": "validation/Meat/5_207.jpg",
+        "kept": "evaluation/Meat/5_354.jpg",
+        "md5": "ae4417a4548dcb5c6868453f9537a859"
+      },
+      {
+        "removed": "validation/Meat/5_209.jpg",
+        "kept": "evaluation/Meat/5_174.jpg",
+        "md5": "600c3c5d76b2ce9d13c667cbd31e6724"
+      },
+      {
+        "removed": "validation/Meat/5_21.jpg",
+        "kept": "evaluation/Meat/5_270.jpg",
+        "md5": "70aa5292e05cd722b6531fd8ef3e92b0"
+      },
+      {
+        "removed": "validation/Meat/5_237.jpg",
+        "kept": "evaluation/Meat/5_74.jpg",
+        "md5": "c5efaf689f7fbb7a14f260c4997025b2"
+      },
+      {
+        "removed": "validation/Meat/5_238.jpg",
+        "kept": "evaluation/Meat/5_222.jpg",
+        "md5": "4e21370d747b16da62396e6f74198aa1"
+      },
+      {
+        "removed": "validation/Meat/5_252.jpg",
+        "kept": "evaluation/Meat/5_58.jpg",
+        "md5": "dd279627a39f2f604cfb7c2949ce0a3d"
+      },
+      {
+        "removed": "validation/Meat/5_256.jpg",
+        "kept": "evaluation/Meat/5_319.jpg",
+        "md5": "fd03dbfd2dcfc5861156e8fac13d9a40"
+      },
+      {
+        "removed": "validation/Meat/5_26.jpg",
+        "kept": "evaluation/Meat/5_124.jpg",
+        "md5": "48adb0148eccd6df3c276299384f6e13"
+      },
+      {
+        "removed": "validation/Meat/5_267.jpg",
+        "kept": "evaluation/Meat/5_361.jpg",
+        "md5": "c48e4ac6afc46fbd29d332d755d675c3"
+      },
+      {
+        "removed": "validation/Meat/5_277.jpg",
+        "kept": "evaluation/Meat/5_11.jpg",
+        "md5": "6d6464d30e5dad99ea4fca39fe0b89ec"
+      },
+      {
+        "removed": "validation/Meat/5_28.jpg",
+        "kept": "evaluation/Meat/5_249.jpg",
+        "md5": "c2b79a8f58a241ef179ff6af6ad047bd"
+      },
+      {
+        "removed": "validation/Meat/5_285.jpg",
+        "kept": "evaluation/Meat/5_190.jpg",
+        "md5": "a97281883b03ff02194225b8a63baa17"
+      },
+      {
+        "removed": "validation/Meat/5_287.jpg",
+        "kept": "evaluation/Meat/5_406.jpg",
+        "md5": "28b4f1aa7dab1ae900eb7ca2f178fd58"
+      },
+      {
+        "removed": "validation/Meat/5_299.jpg",
+        "kept": "evaluation/Meat/5_233.jpg",
+        "md5": "a4d1b1d1861943db0acfcbbdc3c8fccd"
+      },
+      {
+        "removed": "validation/Meat/5_302.jpg",
+        "kept": "evaluation/Meat/5_286.jpg",
+        "md5": "58c265fa9344b8bc8f152e2bd1414497"
+      },
+      {
+        "removed": "validation/Meat/5_308.jpg",
+        "kept": "evaluation/Meat/5_137.jpg",
+        "md5": "0d30e4e84c60d3f2f2ec66838e417d7c"
+      },
+      {
+        "removed": "validation/Meat/5_309.jpg",
+        "kept": "evaluation/Meat/5_297.jpg",
+        "md5": "a2d3c8a1ca7638ea94bca32bd73435c4"
+      },
+      {
+        "removed": "validation/Meat/5_314.jpg",
+        "kept": "evaluation/Meat/5_135.jpg",
+        "md5": "74ea5d1fe27e907e165264cc24e3ef3e"
+      },
+      {
+        "removed": "validation/Meat/5_323.jpg",
+        "kept": "evaluation/Meat/5_393.jpg",
+        "md5": "c0561ae8e661273491026165de350540"
+      },
+      {
+        "removed": "validation/Meat/5_324.jpg",
+        "kept": "evaluation/Meat/5_82.jpg",
+        "md5": "5fc637b6c51024d1f38e98833f028e6d"
+      },
+      {
+        "removed": "validation/Meat/5_342.jpg",
+        "kept": "evaluation/Meat/5_54.jpg",
+        "md5": "5367348a55bcfdbd7ed0f34412a83b06"
+      },
+      {
+        "removed": "validation/Meat/5_350.jpg",
+        "kept": "evaluation/Meat/5_118.jpg",
+        "md5": "9674f39d08b272a5748032746a5494e0"
+      },
+      {
+        "removed": "validation/Meat/5_352.jpg",
+        "kept": "evaluation/Meat/5_110.jpg",
+        "md5": "1be1dc0f8896854b2c5e244f690690b6"
+      },
+      {
+        "removed": "validation/Meat/5_356.jpg",
+        "kept": "evaluation/Meat/5_173.jpg",
+        "md5": "c5588319f744ad3d14d9f7a15ccdc0da"
+      },
+      {
+        "removed": "validation/Meat/5_360.jpg",
+        "kept": "evaluation/Meat/5_51.jpg",
+        "md5": "a26d0a17d9fd18b150d4ff4c014ae62b"
+      },
+      {
+        "removed": "validation/Meat/5_366.jpg",
+        "kept": "evaluation/Meat/5_192.jpg",
+        "md5": "1bcb0925563aa94079c27ad9f4284586"
+      },
+      {
+        "removed": "validation/Meat/5_374.jpg",
+        "kept": "evaluation/Meat/5_169.jpg",
+        "md5": "dc502dfc4d2576b2f9dec7b7628fb08c"
+      },
+      {
+        "removed": "validation/Meat/5_377.jpg",
+        "kept": "evaluation/Meat/5_172.jpg",
+        "md5": "d0ea384939da63bade2035b549a2636e"
+      },
+      {
+        "removed": "validation/Meat/5_385.jpg",
+        "kept": "evaluation/Meat/5_294.jpg",
+        "md5": "a2301463d42d7f7c4dd38be7e838b9e1"
+      },
+      {
+        "removed": "validation/Meat/5_396.jpg",
+        "kept": "evaluation/Meat/5_27.jpg",
+        "md5": "3e8ad641d0f27d59872ed56d44977670"
+      },
+      {
+        "removed": "validation/Meat/5_405.jpg",
+        "kept": "evaluation/Meat/5_389.jpg",
+        "md5": "e9de64b634a7a62a00cb1fe6b8e07e82"
+      },
+      {
+        "removed": "validation/Meat/5_410.jpg",
+        "kept": "evaluation/Meat/5_226.jpg",
+        "md5": "b8cd723873735b5c7430a0078f8b06d6"
+      },
+      {
+        "removed": "validation/Meat/5_416.jpg",
+        "kept": "evaluation/Meat/5_193.jpg",
+        "md5": "81c327f67223a8a3e37563d8a6ef4e4c"
+      },
+      {
+        "removed": "validation/Meat/5_42.jpg",
+        "kept": "evaluation/Meat/5_180.jpg",
+        "md5": "5e83e1bdd5970567c41324c7fd1a37a5"
+      },
+      {
+        "removed": "validation/Meat/5_422.jpg",
+        "kept": "evaluation/Meat/5_303.jpg",
+        "md5": "686eb1dfd2c7324f00fc75eadae8c318"
+      },
+      {
+        "removed": "validation/Meat/5_423.jpg",
+        "kept": "evaluation/Meat/5_6.jpg",
+        "md5": "fbfb56156987857793757865e17e82ba"
+      },
+      {
+        "removed": "validation/Meat/5_424.jpg",
+        "kept": "evaluation/Meat/5_90.jpg",
+        "md5": "0226a4ca35caf6dcb023c698bd932105"
+      },
+      {
+        "removed": "validation/Meat/5_430.jpg",
+        "kept": "evaluation/Meat/5_28.jpg",
+        "md5": "736891f6fad54e30029263efddcd17d8"
+      },
+      {
+        "removed": "validation/Meat/5_432.jpg",
+        "kept": "evaluation/Meat/5_241.jpg",
+        "md5": "b2d1f057ff98c151e2b6a2845772ab35"
+      },
+      {
+        "removed": "validation/Meat/5_437.jpg",
+        "kept": "evaluation/Meat/5_197.jpg",
+        "md5": "3998d2199176736fe6dfea2ce13d7d72"
+      },
+      {
+        "removed": "validation/Meat/5_44.jpg",
+        "kept": "evaluation/Meat/5_300.jpg",
+        "md5": "947c1dc72452972d23d25e0bd3992fb4"
+      },
+      {
+        "removed": "validation/Meat/5_440.jpg",
+        "kept": "evaluation/Meat/5_320.jpg",
+        "md5": "a5acbbb38b78eae521b81ed8f16d05e3"
+      },
+      {
+        "removed": "validation/Meat/5_446.jpg",
+        "kept": "evaluation/Meat/5_287.jpg",
+        "md5": "269659b34ce6438a84e2b419f0a5fa76"
+      },
+      {
+        "removed": "validation/Meat/5_46.jpg",
+        "kept": "evaluation/Meat/5_265.jpg",
+        "md5": "4e5264cd17e40eadd370faef1b591938"
+      },
+      {
+        "removed": "validation/Meat/5_54.jpg",
+        "kept": "evaluation/Meat/5_130.jpg",
+        "md5": "84f82c63487733fbe60a75d7d0c7f4e7"
+      },
+      {
+        "removed": "validation/Meat/5_56.jpg",
+        "kept": "evaluation/Meat/5_201.jpg",
+        "md5": "3078943b13ae1f8f798812e06185511a"
+      },
+      {
+        "removed": "validation/Meat/5_61.jpg",
+        "kept": "evaluation/Meat/5_280.jpg",
+        "md5": "bc409beef5e0468671ba180ecc2194ad"
+      },
+      {
+        "removed": "validation/Meat/5_73.jpg",
+        "kept": "evaluation/Meat/5_248.jpg",
+        "md5": "9f6c3f5c5bb3a6c56c3d4e8c22e84c67"
+      },
+      {
+        "removed": "validation/Meat/5_75.jpg",
+        "kept": "evaluation/Meat/5_151.jpg",
+        "md5": "44b7080cfa3be74a0c46d73813906e6a"
+      },
+      {
+        "removed": "validation/Meat/5_77.jpg",
+        "kept": "evaluation/Meat/5_196.jpg",
+        "md5": "51cb181704f59fe542fa47db130229d3"
+      },
+      {
+        "removed": "validation/Meat/5_86.jpg",
+        "kept": "evaluation/Meat/5_150.jpg",
+        "md5": "795ca804f8472cd82efefe3d7c5533c2"
+      },
+      {
+        "removed": "validation/Meat/5_88.jpg",
+        "kept": "evaluation/Meat/5_67.jpg",
+        "md5": "d46c44e38d03ee986b643e412d1fe380"
+      },
+      {
+        "removed": "validation/Meat/5_93.jpg",
+        "kept": "evaluation/Meat/5_102.jpg",
+        "md5": "52e9ce1ec246818edb60cf2ba3b06659"
+      },
+      {
+        "removed": "validation/Meat/5_95.jpg",
+        "kept": "evaluation/Meat/5_162.jpg",
+        "md5": "30db9d93e11295342cfb63ab3b68ef17"
+      },
+      {
+        "removed": "validation/Meat/5_99.jpg",
+        "kept": "evaluation/Meat/5_184.jpg",
+        "md5": "17083bcc47e9a6586bc54f09895101d4"
+      },
+      {
+        "removed": "validation/Seafood/8_1.jpg",
+        "kept": "evaluation/Seafood/8_6.jpg",
+        "md5": "20b8bfbcceb50978af272b7b9411e0a8"
+      },
+      {
+        "removed": "validation/Seafood/8_102.jpg",
+        "kept": "evaluation/Seafood/8_100.jpg",
+        "md5": "6b154ac379ab882ebaccb04cd59ebe4f"
+      },
+      {
+        "removed": "validation/Seafood/8_110.jpg",
+        "kept": "evaluation/Seafood/8_108.jpg",
+        "md5": "2f69de2575bb123166efec97d1761b40"
+      },
+      {
+        "removed": "validation/Seafood/8_12.jpg",
+        "kept": "evaluation/Seafood/8_9.jpg",
+        "md5": "a1a0f7046d2be765da8c72835fbc0949"
+      },
+      {
+        "removed": "validation/Seafood/8_125.jpg",
+        "kept": "evaluation/Seafood/8_123.jpg",
+        "md5": "d0544fae951d720926109429517cb930"
+      },
+      {
+        "removed": "validation/Seafood/8_130.jpg",
+        "kept": "evaluation/Seafood/8_134.jpg",
+        "md5": "8f6851ec6ddaba800a4c368ad91587dc"
+      },
+      {
+        "removed": "validation/Seafood/8_133.jpg",
+        "kept": "evaluation/Seafood/8_137.jpg",
+        "md5": "aad8776c853ffa64cd6e0f5b4181633e"
+      },
+      {
+        "removed": "validation/Seafood/8_134.jpg",
+        "kept": "evaluation/Seafood/8_138.jpg",
+        "md5": "e355b35c656f7685531c7d3bbe6b520e"
+      },
+      {
+        "removed": "validation/Seafood/8_139.jpg",
+        "kept": "evaluation/Seafood/8_139.jpg",
+        "md5": "0982218cdfbb4528fefeecdae5960aa7"
+      },
+      {
+        "removed": "validation/Seafood/8_141.jpg",
+        "kept": "evaluation/Seafood/8_140.jpg",
+        "md5": "e6d128486a271e5c2e051bc45319b323"
+      },
+      {
+        "removed": "validation/Seafood/8_167.jpg",
+        "kept": "evaluation/Seafood/8_164.jpg",
+        "md5": "220760f6d1b6202de79d0f67467dbeb2"
+      },
+      {
+        "removed": "validation/Seafood/8_183.jpg",
+        "kept": "evaluation/Seafood/8_177.jpg",
+        "md5": "15060bc9b1d1157d034f331615ec69e2"
+      },
+      {
+        "removed": "validation/Seafood/8_187.jpg",
+        "kept": "evaluation/Seafood/8_186.jpg",
+        "md5": "7debb808009874910d4067dc3183daa4"
+      },
+      {
+        "removed": "validation/Seafood/8_19.jpg",
+        "kept": "evaluation/Seafood/8_15.jpg",
+        "md5": "34ec60c3317343d3203e7054074cb29b"
+      },
+      {
+        "removed": "validation/Seafood/8_196.jpg",
+        "kept": "evaluation/Seafood/8_191.jpg",
+        "md5": "07bac12b971b4b4c9e1040b35401ea59"
+      },
+      {
+        "removed": "validation/Seafood/8_197.jpg",
+        "kept": "evaluation/Seafood/8_195.jpg",
+        "md5": "6467001bfda0a31d3ebe42f904a99d9f"
+      },
+      {
+        "removed": "validation/Seafood/8_2.jpg",
+        "kept": "evaluation/Seafood/8_7.jpg",
+        "md5": "16855139373324eacc177e99a3cc4120"
+      },
+      {
+        "removed": "validation/Seafood/8_206.jpg",
+        "kept": "evaluation/Seafood/8_202.jpg",
+        "md5": "07e6fe1312215ac66a7a394de7dd33d7"
+      },
+      {
+        "removed": "validation/Seafood/8_21.jpg",
+        "kept": "evaluation/Seafood/8_18.jpg",
+        "md5": "b5ab338eca39b36f8ac781c4df0b0893"
+      },
+      {
+        "removed": "validation/Seafood/8_216.jpg",
+        "kept": "evaluation/Seafood/8_208.jpg",
+        "md5": "cb7b58450904465d5a2dea145ce505b8"
+      },
+      {
+        "removed": "validation/Seafood/8_217.jpg",
+        "kept": "evaluation/Seafood/8_209.jpg",
+        "md5": "87f99b6365a74d4a2a6fef513e04aef4"
+      },
+      {
+        "removed": "validation/Seafood/8_22.jpg",
+        "kept": "evaluation/Seafood/8_20.jpg",
+        "md5": "972aef790af1795735da13068dad0085"
+      },
+      {
+        "removed": "validation/Seafood/8_220.jpg",
+        "kept": "evaluation/Seafood/8_210.jpg",
+        "md5": "5adaf9632b4e0367fb7ecdba9816f87d"
+      },
+      {
+        "removed": "validation/Seafood/8_221.jpg",
+        "kept": "evaluation/Seafood/8_211.jpg",
+        "md5": "271108dc7f25228f129b6c816fb0def8"
+      },
+      {
+        "removed": "validation/Seafood/8_224.jpg",
+        "kept": "evaluation/Seafood/8_218.jpg",
+        "md5": "cb16cbc7aac83f93298460356a3127d6"
+      },
+      {
+        "removed": "validation/Seafood/8_228.jpg",
+        "kept": "evaluation/Seafood/8_219.jpg",
+        "md5": "afb09ce8bba78673680b4b3b5a6a797b"
+      },
+      {
+        "removed": "validation/Seafood/8_23.jpg",
+        "kept": "evaluation/Seafood/8_23.jpg",
+        "md5": "571127362882999504b070159b40f0c4"
+      },
+      {
+        "removed": "validation/Seafood/8_246.jpg",
+        "kept": "evaluation/Seafood/8_229.jpg",
+        "md5": "26d16609c17784cf5b538062e3eed6cf"
+      },
+      {
+        "removed": "validation/Seafood/8_247.jpg",
+        "kept": "evaluation/Seafood/8_230.jpg",
+        "md5": "c03d98be4c6d7e1b610579c62ded6013"
+      },
+      {
+        "removed": "validation/Seafood/8_257.jpg",
+        "kept": "evaluation/Seafood/8_237.jpg",
+        "md5": "d867f02da9e33e263b2add2fe80828da"
+      },
+      {
+        "removed": "validation/Seafood/8_261.jpg",
+        "kept": "evaluation/Seafood/8_242.jpg",
+        "md5": "f65c231e8a0e511c681a1b1e6b8d7d9e"
+      },
+      {
+        "removed": "validation/Seafood/8_272.jpg",
+        "kept": "evaluation/Seafood/8_248.jpg",
+        "md5": "2a7c5aba00a53ec351c62a4e2b3bc431"
+      },
+      {
+        "removed": "validation/Seafood/8_288.jpg",
+        "kept": "evaluation/Seafood/8_258.jpg",
+        "md5": "d6dd31ad18719ac7b8e1636685813a85"
+      },
+      {
+        "removed": "validation/Seafood/8_294.jpg",
+        "kept": "evaluation/Seafood/8_263.jpg",
+        "md5": "82ca50461c8a12450da0a6ef39544e17"
+      },
+      {
+        "removed": "validation/Seafood/8_306.jpg",
+        "kept": "evaluation/Seafood/8_269.jpg",
+        "md5": "cbdfff4043bf6ceb58a720f117d438ad"
+      },
+      {
+        "removed": "validation/Seafood/8_32.jpg",
+        "kept": "evaluation/Seafood/8_30.jpg",
+        "md5": "957704685ff68423625a716f8719b5bb"
+      },
+      {
+        "removed": "validation/Seafood/8_320.jpg",
+        "kept": "evaluation/Seafood/8_282.jpg",
+        "md5": "ea486861f0d5f8405439067795a6a4cf"
+      },
+      {
+        "removed": "validation/Seafood/8_33.jpg",
+        "kept": "evaluation/Seafood/8_31.jpg",
+        "md5": "cd03a6983b921e6e4f11245ef44e5a3c"
+      },
+      {
+        "removed": "validation/Seafood/8_333.jpg",
+        "kept": "evaluation/Seafood/8_292.jpg",
+        "md5": "86d0f1a296c8b47bba2803eaea154c90"
+      },
+      {
+        "removed": "validation/Seafood/8_338.jpg",
+        "kept": "evaluation/Seafood/8_296.jpg",
+        "md5": "68ea30cfa8526ab4c7cd9166a7180763"
+      },
+      {
+        "removed": "validation/Seafood/8_34.jpg",
+        "kept": "evaluation/Seafood/8_34.jpg",
+        "md5": "621d4616cf87f0970b61a3ef65765b9d"
+      },
+      {
+        "removed": "validation/Seafood/8_340.jpg",
+        "kept": "evaluation/Seafood/8_298.jpg",
+        "md5": "e23401b3bc52c93c3b50d6a4e6ad897c"
+      },
+      {
+        "removed": "validation/Seafood/8_342.jpg",
+        "kept": "evaluation/Seafood/8_301.jpg",
+        "md5": "49e0b9b8d37b11b6caa0dc0fdb9a1db1"
+      },
+      {
+        "removed": "validation/Seafood/8_49.jpg",
+        "kept": "evaluation/Seafood/8_43.jpg",
+        "md5": "95235aaf4e13352a28e36cc637ff85f2"
+      },
+      {
+        "removed": "validation/Seafood/8_51.jpg",
+        "kept": "evaluation/Seafood/8_45.jpg",
+        "md5": "610c0bc0ec724d092247b21d6b51e666"
+      },
+      {
+        "removed": "validation/Seafood/8_65.jpg",
+        "kept": "evaluation/Seafood/8_61.jpg",
+        "md5": "5e96a0103af2a558f563f015ab810bb3"
+      },
+      {
+        "removed": "validation/Seafood/8_69.jpg",
+        "kept": "evaluation/Seafood/8_63.jpg",
+        "md5": "2bb331b7f8bbb629e12966b76c0a6786"
+      },
+      {
+        "removed": "validation/Seafood/8_74.jpg",
+        "kept": "evaluation/Seafood/8_66.jpg",
+        "md5": "8736d4cc16910e6d51b1249f84102abf"
+      },
+      {
+        "removed": "validation/Seafood/8_82.jpg",
+        "kept": "evaluation/Seafood/8_73.jpg",
+        "md5": "0b0c3f4634c3d38f565209ae7ae1b82c"
+      },
+      {
+        "removed": "validation/Seafood/8_93.jpg",
+        "kept": "evaluation/Seafood/8_82.jpg",
+        "md5": "7cc137ebf917e77c78c7de8ef0517195"
+      },
+      {
+        "removed": "validation/Seafood/8_94.jpg",
+        "kept": "evaluation/Seafood/8_83.jpg",
+        "md5": "ef6af4d0408176f7694fa8c7af19ca54"
+      },
+      {
+        "removed": "validation/Seafood/8_99.jpg",
+        "kept": "evaluation/Seafood/8_91.jpg",
+        "md5": "9f6ff0a07a4a365b1b87b969d07d838a"
+      },
+      {
+        "removed": "validation/Soup/9_151.jpg",
+        "kept": "evaluation/Soup/9_148.jpg",
+        "md5": "01b97eb6cad392e257b73e6f4ede3e4b"
+      },
+      {
+        "removed": "validation/Soup/9_152.jpg",
+        "kept": "evaluation/Soup/9_150.jpg",
+        "md5": "800f663212950d4e9827291e961df6df"
+      },
+      {
+        "removed": "validation/Soup/9_166.jpg",
+        "kept": "evaluation/Soup/9_162.jpg",
+        "md5": "a4e1687377ff29b401863dd20c5fc28d"
+      },
+      {
+        "removed": "validation/Soup/9_172.jpg",
+        "kept": "evaluation/Soup/9_170.jpg",
+        "md5": "4f5f6a530f34d92035b344841a38b988"
+      },
+      {
+        "removed": "validation/Soup/9_197.jpg",
+        "kept": "evaluation/Soup/9_192.jpg",
+        "md5": "bb2be44b79bd4cb14ca5b942b615e39f"
+      },
+      {
+        "removed": "validation/Soup/9_209.jpg",
+        "kept": "evaluation/Soup/9_203.jpg",
+        "md5": "406f6d87ed675b98dbc1aec0b731863e"
+      },
+      {
+        "removed": "validation/Soup/9_214.jpg",
+        "kept": "evaluation/Soup/9_214.jpg",
+        "md5": "d183a3dde5356e2abad9783a787c0b6c"
+      },
+      {
+        "removed": "validation/Soup/9_227.jpg",
+        "kept": "evaluation/Soup/9_227.jpg",
+        "md5": "9314e403dd9574d58db67452db710e62"
+      },
+      {
+        "removed": "validation/Soup/9_238.jpg",
+        "kept": "evaluation/Soup/9_236.jpg",
+        "md5": "73f45ad47309447b7d2b131e1b9c6c43"
+      },
+      {
+        "removed": "validation/Soup/9_239.jpg",
+        "kept": "evaluation/Soup/9_238.jpg",
+        "md5": "245f1098e4d698de7bef0917d306252a"
+      },
+      {
+        "removed": "validation/Soup/9_278.jpg",
+        "kept": "evaluation/Soup/9_280.jpg",
+        "md5": "04e3e7db546f750e43cedb66c13ff9b7"
+      },
+      {
+        "removed": "validation/Soup/9_285.jpg",
+        "kept": "evaluation/Soup/9_285.jpg",
+        "md5": "113b0a6e0c2d82cd676ae3fbd51a1dd4"
+      },
+      {
+        "removed": "validation/Soup/9_287.jpg",
+        "kept": "evaluation/Soup/9_287.jpg",
+        "md5": "ec3829b75bef0a6a37e471c918c1fd9f"
+      },
+      {
+        "removed": "validation/Soup/9_290.jpg",
+        "kept": "evaluation/Soup/9_289.jpg",
+        "md5": "30904eb6bd0229f51c5408b3602c9279"
+      },
+      {
+        "removed": "validation/Soup/9_303.jpg",
+        "kept": "evaluation/Soup/9_303.jpg",
+        "md5": "bcd3d0f382f2b3062f1f09b6b017425e"
+      },
+      {
+        "removed": "validation/Soup/9_306.jpg",
+        "kept": "evaluation/Soup/9_309.jpg",
+        "md5": "a52c3149b94a4d5bfb57b10189b398c7"
+      },
+      {
+        "removed": "validation/Soup/9_308.jpg",
+        "kept": "evaluation/Soup/9_311.jpg",
+        "md5": "604419a5e92ec0ae6e27c702d80b9c15"
+      },
+      {
+        "removed": "validation/Soup/9_309.jpg",
+        "kept": "evaluation/Soup/9_312.jpg",
+        "md5": "72d0c47a6dabaf66c10771dc1de9dd08"
+      },
+      {
+        "removed": "validation/Soup/9_324.jpg",
+        "kept": "evaluation/Soup/9_329.jpg",
+        "md5": "19dbab25ab20405707809debbe6841bf"
+      },
+      {
+        "removed": "validation/Soup/9_33.jpg",
+        "kept": "evaluation/Soup/9_31.jpg",
+        "md5": "a2dbf7e9575dd27a2c043d2d99400493"
+      },
+      {
+        "removed": "validation/Soup/9_338.jpg",
+        "kept": "evaluation/Soup/9_349.jpg",
+        "md5": "56bacc76431cb1743f6d522fe22aa2f3"
+      },
+      {
+        "removed": "validation/Soup/9_351.jpg",
+        "kept": "evaluation/Soup/9_355.jpg",
+        "md5": "7b92db689e84fd5baac55c9e0339d17f"
+      },
+      {
+        "removed": "validation/Soup/9_352.jpg",
+        "kept": "evaluation/Soup/9_356.jpg",
+        "md5": "6f0066b214025559ff135e5878b2172c"
+      },
+      {
+        "removed": "validation/Soup/9_364.jpg",
+        "kept": "evaluation/Soup/9_363.jpg",
+        "md5": "126c32d3552ff1aa9948b5d104c1defb"
+      },
+      {
+        "removed": "validation/Soup/9_369.jpg",
+        "kept": "evaluation/Soup/9_371.jpg",
+        "md5": "1255809711a8c2ed2756b79a53e73ef0"
+      },
+      {
+        "removed": "validation/Soup/9_370.jpg",
+        "kept": "evaluation/Soup/9_372.jpg",
+        "md5": "c67bf60e8fc71bf3d42e6f227256448b"
+      },
+      {
+        "removed": "validation/Soup/9_379.jpg",
+        "kept": "evaluation/Soup/9_388.jpg",
+        "md5": "38e1b8f2b5641e785e86700da93d6cbd"
+      },
+      {
+        "removed": "validation/Soup/9_389.jpg",
+        "kept": "evaluation/Soup/9_397.jpg",
+        "md5": "e79f5e4ca7f81f8e72ca5ce2b56986d2"
+      },
+      {
+        "removed": "validation/Soup/9_404.jpg",
+        "kept": "evaluation/Soup/9_412.jpg",
+        "md5": "494337565b56b85b8a854a84ef2218b4"
+      },
+      {
+        "removed": "validation/Soup/9_407.jpg",
+        "kept": "evaluation/Soup/9_419.jpg",
+        "md5": "603305e1f50cfffd50e7dbdce3082185"
+      },
+      {
+        "removed": "validation/Soup/9_416.jpg",
+        "kept": "evaluation/Soup/9_427.jpg",
+        "md5": "be5e37ea1c03f97123e7628a0ab3bc48"
+      },
+      {
+        "removed": "validation/Soup/9_426.jpg",
+        "kept": "evaluation/Soup/9_438.jpg",
+        "md5": "2d418b4a80e472b3dd741a4bda2e9b51"
+      },
+      {
+        "removed": "validation/Soup/9_439.jpg",
+        "kept": "evaluation/Soup/9_447.jpg",
+        "md5": "849b2aa4aea2ae5217ade03a0dcbb7bc"
+      },
+      {
+        "removed": "validation/Soup/9_444.jpg",
+        "kept": "evaluation/Soup/9_449.jpg",
+        "md5": "c572cf603396dc947c64be820d54344d"
+      },
+      {
+        "removed": "validation/Soup/9_481.jpg",
+        "kept": "evaluation/Soup/9_483.jpg",
+        "md5": "e7f45b7858fdfcccf6d952a98957a6b0"
+      },
+      {
+        "removed": "validation/Soup/9_486.jpg",
+        "kept": "evaluation/Soup/9_484.jpg",
+        "md5": "4ec88f1af541c72da339086a30a0a19f"
+      },
+      {
+        "removed": "validation/Soup/9_495.jpg",
+        "kept": "evaluation/Soup/9_490.jpg",
+        "md5": "c22d3a87ec0e8a11579a8d1202aae97e"
+      },
+      {
+        "removed": "validation/Soup/9_73.jpg",
+        "kept": "evaluation/Soup/9_73.jpg",
+        "md5": "0734dbdec23f1802ea356a5c5503d64c"
+      },
+      {
+        "removed": "validation/Vegetable-Fruit/10_107.jpg",
+        "kept": "evaluation/Vegetable-Fruit/10_94.jpg",
+        "md5": "276db3c85f5b62c27a6761f0ae0d5737"
+      },
+      {
+        "removed": "validation/Vegetable-Fruit/10_138.jpg",
+        "kept": "evaluation/Vegetable-Fruit/10_106.jpg",
+        "md5": "411dbb7557775856be32bd6afbb248dd"
+      },
+      {
+        "removed": "training/Bread/0_106.jpg",
+        "kept": "evaluation/Bread/0_131.jpg",
+        "md5": "5a8866187bb55b369b494323524e7e4d"
+      },
+      {
+        "removed": "training/Bread/0_115.jpg",
+        "kept": "evaluation/Bread/0_240.jpg",
+        "md5": "02cbb235d40c992fe5f62e63440becc9"
+      },
+      {
+        "removed": "training/Bread/0_128.jpg",
+        "kept": "evaluation/Bread/0_33.jpg",
+        "md5": "fb3d57a78f7f34399813e7769fc1577a"
+      },
+      {
+        "removed": "training/Bread/0_186.jpg",
+        "kept": "evaluation/Bread/0_139.jpg",
+        "md5": "d8b3694a281b427c9eff97af26689185"
+      },
+      {
+        "removed": "training/Bread/0_207.jpg",
+        "kept": "evaluation/Bread/0_354.jpg",
+        "md5": "b8c0ed98f22bee26d59cacada97c3da4"
+      },
+      {
+        "removed": "training/Bread/0_26.jpg",
+        "kept": "evaluation/Bread/0_177.jpg",
+        "md5": "357990e3dc79c561fd495f63bd3e2090"
+      },
+      {
+        "removed": "training/Bread/0_269.jpg",
+        "kept": "evaluation/Bread/0_285.jpg",
+        "md5": "f0cf70ad5711c1aaee9d5e5f7c2d9fd2"
+      },
+      {
+        "removed": "training/Bread/0_280.jpg",
+        "kept": "evaluation/Bread/0_294.jpg",
+        "md5": "62d0f7d3b892ada33aec7e00c9ee0951"
+      },
+      {
+        "removed": "training/Bread/0_321.jpg",
+        "kept": "evaluation/Bread/0_24.jpg",
+        "md5": "5717e549b42f89caa413e00149e405fe"
+      },
+      {
+        "removed": "training/Bread/0_414.jpg",
+        "kept": "evaluation/Bread/0_271.jpg",
+        "md5": "9d0c5e15cf06f70ac32e2eb5be8f4a6c"
+      },
+      {
+        "removed": "training/Bread/0_419.jpg",
+        "kept": "evaluation/Bread/0_203.jpg",
+        "md5": "c9926a5cc89dd8f6629e10da4f5e3db8"
+      },
+      {
+        "removed": "training/Bread/0_466.jpg",
+        "kept": "evaluation/Bread/0_109.jpg",
+        "md5": "8ece442e206511f36e69f325007ec7c4"
+      },
+      {
+        "removed": "training/Bread/0_49.jpg",
+        "kept": "evaluation/Bread/0_195.jpg",
+        "md5": "cd32f2d4646b811a6bededa85f838849"
+      },
+      {
+        "removed": "training/Bread/0_493.jpg",
+        "kept": "evaluation/Bread/0_123.jpg",
+        "md5": "a1e9d2d8eab6c70b3ef6279a58895a60"
+      },
+      {
+        "removed": "training/Bread/0_518.jpg",
+        "kept": "evaluation/Bread/0_367.jpg",
+        "md5": "684fe9535c110e929e3eb7497ca13203"
+      },
+      {
+        "removed": "training/Bread/0_543.jpg",
+        "kept": "evaluation/Bread/0_112.jpg",
+        "md5": "048930f420c9c9a7980dfa41ea7edc79"
+      },
+      {
+        "removed": "training/Bread/0_578.jpg",
+        "kept": "evaluation/Bread/0_100.jpg",
+        "md5": "4310bccd16c31203f05f4403de587ede"
+      },
+      {
+        "removed": "training/Bread/0_583.jpg",
+        "kept": "evaluation/Bread/0_346.jpg",
+        "md5": "b1d82b9e8ee346b2f754f65a2464d943"
+      },
+      {
+        "removed": "training/Bread/0_586.jpg",
+        "kept": "evaluation/Bread/0_330.jpg",
+        "md5": "5a1c6f3fbd22fb41b0a41ba7b584be40"
+      },
+      {
+        "removed": "training/Bread/0_594.jpg",
+        "kept": "evaluation/Bread/0_140.jpg",
+        "md5": "0e2abb9191d675e51f5e2dde8eaceb28"
+      },
+      {
+        "removed": "training/Bread/0_616.jpg",
+        "kept": "evaluation/Bread/0_233.jpg",
+        "md5": "702f42e8ef3e4195587915555b353fbe"
+      },
+      {
+        "removed": "training/Bread/0_62.jpg",
+        "kept": "evaluation/Bread/0_15.jpg",
+        "md5": "ec4d048180d6d89ae132f98419fc5e2b"
+      },
+      {
+        "removed": "training/Bread/0_625.jpg",
+        "kept": "evaluation/Bread/0_176.jpg",
+        "md5": "f30148c22b5bc3e1089e2145550e060c"
+      },
+      {
+        "removed": "training/Bread/0_645.jpg",
+        "kept": "evaluation/Bread/0_170.jpg",
+        "md5": "53a10cc5c9fa5d1a49da1079ef4378b5"
+      },
+      {
+        "removed": "training/Bread/0_688.jpg",
+        "kept": "evaluation/Bread/0_245.jpg",
+        "md5": "68cb498e7f898ff1edd0564995a252c9"
+      },
+      {
+        "removed": "training/Bread/0_704.jpg",
+        "kept": "evaluation/Bread/0_279.jpg",
+        "md5": "90d17906658710792ba4d200438e2bac"
+      },
+      {
+        "removed": "training/Bread/0_71.jpg",
+        "kept": "evaluation/Bread/0_216.jpg",
+        "md5": "a78b77e569fba7926a4afb66da1e70ae"
+      },
+      {
+        "removed": "training/Bread/0_764.jpg",
+        "kept": "evaluation/Bread/0_183.jpg",
+        "md5": "03b98118c5329264ff9cfe3477600fda"
+      },
+      {
+        "removed": "training/Bread/0_774.jpg",
+        "kept": "evaluation/Bread/0_101.jpg",
+        "md5": "92388f812ef8b2105ad576686042e4d4"
+      },
+      {
+        "removed": "training/Bread/0_793.jpg",
+        "kept": "evaluation/Bread/0_226.jpg",
+        "md5": "1e979511521dcb099e61e0ef97596e62"
+      },
+      {
+        "removed": "training/Bread/0_80.jpg",
+        "kept": "evaluation/Bread/0_352.jpg",
+        "md5": "1cb5d3e9755552a71374cdd0c499f100"
+      },
+      {
+        "removed": "training/Bread/0_800.jpg",
+        "kept": "evaluation/Bread/0_322.jpg",
+        "md5": "5eb74e9a27c9e0fdabf971d290d3db41"
+      },
+      {
+        "removed": "training/Bread/0_806.jpg",
+        "kept": "evaluation/Bread/0_333.jpg",
+        "md5": "c783b55b2b26319a2b5dc1a0cf6e5a75"
+      },
+      {
+        "removed": "training/Bread/0_81.jpg",
+        "kept": "evaluation/Bread/0_291.jpg",
+        "md5": "a9e06bf9efe672d0701332458b675891"
+      },
+      {
+        "removed": "training/Bread/0_812.jpg",
+        "kept": "evaluation/Bread/0_12.jpg",
+        "md5": "410634891ce7499cc29e92d24981831a"
+      },
+      {
+        "removed": "training/Bread/0_896.jpg",
+        "kept": "evaluation/Bread/0_175.jpg",
+        "md5": "3731404c231ce562de474385b3e39664"
+      },
+      {
+        "removed": "training/Bread/0_910.jpg",
+        "kept": "evaluation/Bread/0_310.jpg",
+        "md5": "aef2c1bc6209a61950a367277f886a3f"
+      },
+      {
+        "removed": "training/Bread/0_913.jpg",
+        "kept": "evaluation/Bread/0_29.jpg",
+        "md5": "86d14689b6ea061bda1d7347e95cd119"
+      },
+      {
+        "removed": "training/Bread/0_917.jpg",
+        "kept": "evaluation/Bread/0_9.jpg",
+        "md5": "fda2eb42df1fe6777850b3783e7ac314"
+      },
+      {
+        "removed": "training/Bread/0_924.jpg",
+        "kept": "evaluation/Bread/0_147.jpg",
+        "md5": "c4390996b37267f6b54aa79f487692a9"
+      },
+      {
+        "removed": "training/Bread/0_970.jpg",
+        "kept": "evaluation/Bread/0_71.jpg",
+        "md5": "87c2fefffc022ea1ef07a054cce74dbd"
+      },
+      {
+        "removed": "training/Bread/0_973.jpg",
+        "kept": "evaluation/Bread/0_204.jpg",
+        "md5": "d2ec6a9370c476aeb4e0903720e71c59"
+      },
+      {
+        "removed": "training/Bread/0_975.jpg",
+        "kept": "evaluation/Bread/0_124.jpg",
+        "md5": "6e1d53ef866564d376123075cbceb645"
+      },
+      {
+        "removed": "training/Bread/0_984.jpg",
+        "kept": "evaluation/Bread/0_192.jpg",
+        "md5": "43fa92e2a3a241d3be39c26e642561d9"
+      },
+      {
+        "removed": "training/Dairy product/1_185.jpg",
+        "kept": "validation/Dairy product/1_123.jpg",
+        "md5": "9cc92eb2df49bc3f37cb3fa74a6aa153"
+      },
+      {
+        "removed": "training/Dairy product/1_328.jpg",
+        "kept": "validation/Dairy product/1_129.jpg",
+        "md5": "1263f906be1e579abc367eef784b99cc"
+      },
+      {
+        "removed": "training/Dessert/2_1004.jpg",
+        "kept": "validation/Dessert/2_331.jpg",
+        "md5": "3de45267d7d61bbbb5445341e10fa577"
+      },
+      {
+        "removed": "training/Dessert/2_1046.jpg",
+        "kept": "validation/Dessert/2_154.jpg",
+        "md5": "f27f4ad2a89862f766ec242386dd948d"
+      },
+      {
+        "removed": "training/Dessert/2_107.jpg",
+        "kept": "validation/Dessert/2_378.jpg",
+        "md5": "779ec9e8ac3223db076a4c1f11998f2a"
+      },
+      {
+        "removed": "training/Dessert/2_1072.jpg",
+        "kept": "validation/Dessert/2_209.jpg",
+        "md5": "a8d93edb271d21ca2b1cfdf1ba52ec4c"
+      },
+      {
+        "removed": "training/Dessert/2_1112.jpg",
+        "kept": "validation/Dessert/2_325.jpg",
+        "md5": "92125c012c7763a837eb355c26b06b02"
+      },
+      {
+        "removed": "training/Dessert/2_112.jpg",
+        "kept": "validation/Dessert/2_394.jpg",
+        "md5": "bd22f999ba0cfd99f9d8b30d102c6036"
+      },
+      {
+        "removed": "training/Dessert/2_1124.jpg",
+        "kept": "validation/Dessert/2_442.jpg",
+        "md5": "6b7abcfad79d4ccebd6b7c59b022f1dd"
+      },
+      {
+        "removed": "training/Dessert/2_1202.jpg",
+        "kept": "validation/Dessert/2_244.jpg",
+        "md5": "32c6ea4bed7d4aba883a8dbd63fc11a9"
+      },
+      {
+        "removed": "training/Dessert/2_1206.jpg",
+        "kept": "validation/Dessert/2_37.jpg",
+        "md5": "9360ae57b207a70017083d7fcd01303d"
+      },
+      {
+        "removed": "training/Dessert/2_1233.jpg",
+        "kept": "validation/Dessert/2_148.jpg",
+        "md5": "a5767b8a74a3b9588ddff7fc29f32683"
+      },
+      {
+        "removed": "training/Dessert/2_1239.jpg",
+        "kept": "validation/Dessert/2_463.jpg",
+        "md5": "5472070bafb71f0c7d5825a57275c0cb"
+      },
+      {
+        "removed": "training/Dessert/2_1241.jpg",
+        "kept": "validation/Dessert/2_400.jpg",
+        "md5": "6d05b70d228f63f1cbfdf4163ba9c50d"
+      },
+      {
+        "removed": "training/Dessert/2_1246.jpg",
+        "kept": "validation/Dessert/2_236.jpg",
+        "md5": "7cc60bfab5890d3485b2fdc620ae2998"
+      },
+      {
+        "removed": "training/Dessert/2_1321.jpg",
+        "kept": "validation/Dessert/2_147.jpg",
+        "md5": "1e9d9b231eeaa79834c155abf7200758"
+      },
+      {
+        "removed": "training/Dessert/2_1328.jpg",
+        "kept": "validation/Dessert/2_388.jpg",
+        "md5": "982ed0ed5b9d7f112f643c4d69908288"
+      },
+      {
+        "removed": "training/Dessert/2_1332.jpg",
+        "kept": "validation/Dessert/2_424.jpg",
+        "md5": "d9de7575993eb0f41caf379b767593b5"
+      },
+      {
+        "removed": "training/Dessert/2_1387.jpg",
+        "kept": "validation/Dessert/2_177.jpg",
+        "md5": "e8dc5c6e3060512da07aa0743d757e59"
+      },
+      {
+        "removed": "training/Dessert/2_1418.jpg",
+        "kept": "validation/Dessert/2_149.jpg",
+        "md5": "83694e22a3df9deaba630c9f4bdb7713"
+      },
+      {
+        "removed": "training/Dessert/2_1426.jpg",
+        "kept": "validation/Dessert/2_75.jpg",
+        "md5": "88e9c73319d8aad3b03210e8ec529850"
+      },
+      {
+        "removed": "training/Dessert/2_1429.jpg",
+        "kept": "validation/Dessert/2_211.jpg",
+        "md5": "93638ffc61cdc7cbbc6d46661aeeb2cc"
+      },
+      {
+        "removed": "training/Dessert/2_146.jpg",
+        "kept": "validation/Dessert/2_216.jpg",
+        "md5": "b82e0f7685b5dc835d56ee7fd88871ed"
+      },
+      {
+        "removed": "training/Dessert/2_1481.jpg",
+        "kept": "validation/Dessert/2_172.jpg",
+        "md5": "89c2627e8ae67f7b3ea1320b92316c28"
+      },
+      {
+        "removed": "training/Dessert/2_188.jpg",
+        "kept": "validation/Dessert/2_224.jpg",
+        "md5": "7b80321718e0da3561634c86e4689951"
+      },
+      {
+        "removed": "training/Dessert/2_21.jpg",
+        "kept": "validation/Dessert/2_297.jpg",
+        "md5": "e0e1eeddb3dd8159ad3ac2cfba52bec7"
+      },
+      {
+        "removed": "training/Dessert/2_258.jpg",
+        "kept": "validation/Dessert/2_428.jpg",
+        "md5": "a1a14205e1b3feac1431caf4f26048e6"
+      },
+      {
+        "removed": "training/Dessert/2_277.jpg",
+        "kept": "validation/Dessert/2_19.jpg",
+        "md5": "afd51250e40b05860384329403ba48dc"
+      },
+      {
+        "removed": "training/Dessert/2_294.jpg",
+        "kept": "validation/Dessert/2_33.jpg",
+        "md5": "60f75854ab1f248b677cd963c6231211"
+      },
+      {
+        "removed": "training/Dessert/2_37.jpg",
+        "kept": "validation/Dessert/2_278.jpg",
+        "md5": "17208c3214670fbec73e99a71d3aad49"
+      },
+      {
+        "removed": "training/Dessert/2_386.jpg",
+        "kept": "validation/Dessert/2_140.jpg",
+        "md5": "1cd432eac11c9256eb37264295fc5f97"
+      },
+      {
+        "removed": "training/Dessert/2_394.jpg",
+        "kept": "validation/Dessert/2_130.jpg",
+        "md5": "d0e01f895ca71fdbab134115e22a80f5"
+      },
+      {
+        "removed": "training/Dessert/2_425.jpg",
+        "kept": "validation/Dessert/2_390.jpg",
+        "md5": "776b83d2ade80788e55558b0e08b0248"
+      },
+      {
+        "removed": "training/Dessert/2_429.jpg",
+        "kept": "validation/Dessert/2_131.jpg",
+        "md5": "6caaa4354b67a269a1bbb83d2f8224c3"
+      },
+      {
+        "removed": "training/Dessert/2_521.jpg",
+        "kept": "validation/Dessert/2_156.jpg",
+        "md5": "83f226d27173166af3a7f8d90ef7966e"
+      },
+      {
+        "removed": "training/Dessert/2_540.jpg",
+        "kept": "validation/Dessert/2_282.jpg",
+        "md5": "7a02e1eb6a350b870562a3d437f537ce"
+      },
+      {
+        "removed": "training/Dessert/2_604.jpg",
+        "kept": "validation/Dessert/2_310.jpg",
+        "md5": "d113d675d9a9e20e90f18df32b6aa149"
+      },
+      {
+        "removed": "training/Dessert/2_645.jpg",
+        "kept": "validation/Dessert/2_235.jpg",
+        "md5": "8736cf98cd9823a4c4ddbb6ebecc2018"
+      },
+      {
+        "removed": "training/Dessert/2_704.jpg",
+        "kept": "validation/Dessert/2_100.jpg",
+        "md5": "fede2c75d8b018dfb8e2dc29b2a052e4"
+      },
+      {
+        "removed": "training/Dessert/2_710.jpg",
+        "kept": "validation/Dessert/2_375.jpg",
+        "md5": "56209ac6456e96ea063d5e00c79f11bb"
+      },
+      {
+        "removed": "training/Dessert/2_738.jpg",
+        "kept": "validation/Dessert/2_381.jpg",
+        "md5": "90d2c42b6104594383fe58fe9924075b"
+      },
+      {
+        "removed": "training/Dessert/2_765.jpg",
+        "kept": "validation/Dessert/2_469.jpg",
+        "md5": "e6fba24ca32968778d97b044af6c2ec1"
+      },
+      {
+        "removed": "training/Dessert/2_778.jpg",
+        "kept": "validation/Dessert/2_415.jpg",
+        "md5": "dcea0d9d7a5ad202281154baceb06c49"
+      },
+      {
+        "removed": "training/Dessert/2_78.jpg",
+        "kept": "validation/Dessert/2_231.jpg",
+        "md5": "42f5924fcc9dfc784b56cff3cb8098c6"
+      },
+      {
+        "removed": "training/Dessert/2_867.jpg",
+        "kept": "validation/Dessert/2_14.jpg",
+        "md5": "21d8524f70e82da08e4a7c5ad0b14f99"
+      },
+      {
+        "removed": "training/Dessert/2_878.jpg",
+        "kept": "validation/Dessert/2_431.jpg",
+        "md5": "e40f2c7f08e0900b33a083d45ff4b248"
+      },
+      {
+        "removed": "training/Dessert/2_88.jpg",
+        "kept": "validation/Dessert/2_217.jpg",
+        "md5": "d8ff30ec9f5e1ed0d03b294bba98b7a7"
+      },
+      {
+        "removed": "training/Dessert/2_884.jpg",
+        "kept": "validation/Dessert/2_11.jpg",
+        "md5": "9f08741a11f2c68ed36a64c92f7a8712"
+      },
+      {
+        "removed": "training/Dessert/2_912.jpg",
+        "kept": "validation/Dessert/2_57.jpg",
+        "md5": "2d4072973136ea14f179785b14761e2a"
+      },
+      {
+        "removed": "training/Dessert/2_921.jpg",
+        "kept": "validation/Dessert/2_427.jpg",
+        "md5": "1192e5ccb9050761fe55433a9e4f17ce"
+      },
+      {
+        "removed": "training/Dessert/2_926.jpg",
+        "kept": "validation/Dessert/2_109.jpg",
+        "md5": "13781757a402f0adb44a145e0dbbdc59"
+      },
+      {
+        "removed": "training/Egg/3_27.jpg",
+        "kept": "evaluation/Egg/3_89.jpg",
+        "md5": "df8ee13f9c88b5152fb7254bf000847b"
+      },
+      {
+        "removed": "training/Egg/3_437.jpg",
+        "kept": "evaluation/Egg/3_57.jpg",
+        "md5": "f9bb5a079aebeff0b6f9f0ce2377e4fe"
+      },
+      {
+        "removed": "training/Egg/3_624.jpg",
+        "kept": "evaluation/Egg/3_43.jpg",
+        "md5": "b95eb2506e7688039f83b72f71272eae"
+      },
+      {
+        "removed": "training/Egg/3_792.jpg",
+        "kept": "evaluation/Egg/3_34.jpg",
+        "md5": "3d4ecc7541ca70f5ae940d7ebdcd67bb"
+      },
+      {
+        "removed": "training/Egg/3_831.jpg",
+        "kept": "evaluation/Egg/3_117.jpg",
+        "md5": "2c3c38e021624bc73ad8fcd9d09eddc0"
+      },
+      {
+        "removed": "training/Fried food/4_116.jpg",
+        "kept": "evaluation/Fried food/4_275.jpg",
+        "md5": "9b5bf8ef7e6c5e15fb23c9ba160ef036"
+      },
+      {
+        "removed": "training/Fried food/4_167.jpg",
+        "kept": "evaluation/Fried food/4_123.jpg",
+        "md5": "a7c0e1586561cf1806a8e5c7618fab25"
+      },
+      {
+        "removed": "training/Fried food/4_236.jpg",
+        "kept": "evaluation/Fried food/4_89.jpg",
+        "md5": "f42ed9fc31191da77922dff679ec5bbd"
+      },
+      {
+        "removed": "training/Fried food/4_249.jpg",
+        "kept": "evaluation/Fried food/4_93.jpg",
+        "md5": "702b33f0dfe12ec41120835946e1c232"
+      },
+      {
+        "removed": "training/Fried food/4_253.jpg",
+        "kept": "evaluation/Fried food/4_192.jpg",
+        "md5": "30a8ec98247137dc1fd0f8534f591d6c"
+      },
+      {
+        "removed": "training/Fried food/4_262.jpg",
+        "kept": "evaluation/Fried food/4_110.jpg",
+        "md5": "08741ca4dd617b2a1509caabcbfc6c19"
+      },
+      {
+        "removed": "training/Fried food/4_270.jpg",
+        "kept": "evaluation/Fried food/4_193.jpg",
+        "md5": "c3003ad35ca7b88f42c331d22d4b107e"
+      },
+      {
+        "removed": "training/Fried food/4_275.jpg",
+        "kept": "evaluation/Fried food/4_229.jpg",
+        "md5": "52eeea6f1a86c618cc5c8e238d56b0bb"
+      },
+      {
+        "removed": "training/Fried food/4_28.jpg",
+        "kept": "evaluation/Fried food/4_164.jpg",
+        "md5": "dd169bc4079756554497bb38bd38eff1"
+      },
+      {
+        "removed": "training/Fried food/4_292.jpg",
+        "kept": "evaluation/Fried food/4_78.jpg",
+        "md5": "a1f5598208d02fe535896c7268ddfb71"
+      },
+      {
+        "removed": "training/Fried food/4_313.jpg",
+        "kept": "evaluation/Fried food/4_40.jpg",
+        "md5": "479fc5f840f0ebe620583e8203b352d8"
+      },
+      {
+        "removed": "training/Fried food/4_317.jpg",
+        "kept": "evaluation/Fried food/4_28.jpg",
+        "md5": "a8ae55068b784834ba2c1a22e915ef21"
+      },
+      {
+        "removed": "training/Fried food/4_323.jpg",
+        "kept": "evaluation/Fried food/4_98.jpg",
+        "md5": "9c02d313ef6eebe6374d0d3b5e1a26f1"
+      },
+      {
+        "removed": "training/Fried food/4_328.jpg",
+        "kept": "evaluation/Fried food/4_256.jpg",
+        "md5": "595e04894242dbc27c4db1a7fca6ebc2"
+      },
+      {
+        "removed": "training/Fried food/4_352.jpg",
+        "kept": "evaluation/Fried food/4_96.jpg",
+        "md5": "58e5585e65d0089d0ae3db6c64de2986"
+      },
+      {
+        "removed": "training/Fried food/4_383.jpg",
+        "kept": "evaluation/Fried food/4_2.jpg",
+        "md5": "996c9d09cc9b8401a20f18780d449a07"
+      },
+      {
+        "removed": "training/Fried food/4_386.jpg",
+        "kept": "evaluation/Fried food/4_169.jpg",
+        "md5": "767450e16b235c6dbe516306a554066d"
+      },
+      {
+        "removed": "training/Fried food/4_419.jpg",
+        "kept": "evaluation/Fried food/4_254.jpg",
+        "md5": "4bad783856b552f2dc1ab08c234a7ccb"
+      },
+      {
+        "removed": "training/Fried food/4_43.jpg",
+        "kept": "evaluation/Fried food/4_119.jpg",
+        "md5": "14aff3393458679bc0a15537b4933810"
+      },
+      {
+        "removed": "training/Fried food/4_452.jpg",
+        "kept": "evaluation/Fried food/4_126.jpg",
+        "md5": "2dc915d7a06d10ae4a367ad7e957db85"
+      },
+      {
+        "removed": "training/Fried food/4_531.jpg",
+        "kept": "evaluation/Fried food/4_37.jpg",
+        "md5": "979fa3f86a6b7d0d8a1f2d3ffed33cd2"
+      },
+      {
+        "removed": "training/Fried food/4_562.jpg",
+        "kept": "evaluation/Fried food/4_264.jpg",
+        "md5": "bec947577d66f0ed3defac4f4909b603"
+      },
+      {
+        "removed": "training/Fried food/4_570.jpg",
+        "kept": "evaluation/Fried food/4_95.jpg",
+        "md5": "5e1dcac9e1754c3a3d647c8376c559d0"
+      },
+      {
+        "removed": "training/Fried food/4_584.jpg",
+        "kept": "evaluation/Fried food/4_91.jpg",
+        "md5": "042ba989b623f4e2d8a8d53a9379d7b1"
+      },
+      {
+        "removed": "training/Fried food/4_598.jpg",
+        "kept": "evaluation/Fried food/4_116.jpg",
+        "md5": "4641af7b6fcf1fdef6c51dce6cc75802"
+      },
+      {
+        "removed": "training/Fried food/4_610.jpg",
+        "kept": "evaluation/Fried food/4_141.jpg",
+        "md5": "b1fe7aa1715344cd7639319204802e96"
+      },
+      {
+        "removed": "training/Fried food/4_611.jpg",
+        "kept": "evaluation/Fried food/4_199.jpg",
+        "md5": "b7ee2a2bfa6fb8300b1ef8bcb82a8558"
+      },
+      {
+        "removed": "training/Fried food/4_619.jpg",
+        "kept": "evaluation/Fried food/4_148.jpg",
+        "md5": "d08b787ae542fa3d9853c38786c5dcc0"
+      },
+      {
+        "removed": "training/Fried food/4_651.jpg",
+        "kept": "evaluation/Fried food/4_179.jpg",
+        "md5": "2b7f2a246ee7f42c08a0179309756eac"
+      },
+      {
+        "removed": "training/Fried food/4_686.jpg",
+        "kept": "evaluation/Fried food/4_118.jpg",
+        "md5": "3e0d6481b132deee6faa755d8d4730b0"
+      },
+      {
+        "removed": "training/Fried food/4_712.jpg",
+        "kept": "evaluation/Fried food/4_24.jpg",
+        "md5": "ec8ee0402491dbe95d82b5e6373e40b2"
+      },
+      {
+        "removed": "training/Fried food/4_739.jpg",
+        "kept": "evaluation/Fried food/4_109.jpg",
+        "md5": "d5f2d6dea84fd147406c5e2d4935bd4d"
+      },
+      {
+        "removed": "training/Fried food/4_750.jpg",
+        "kept": "evaluation/Fried food/4_253.jpg",
+        "md5": "9670f639cadaebddc9a5e28db795295b"
+      },
+      {
+        "removed": "training/Fried food/4_761.jpg",
+        "kept": "evaluation/Fried food/4_281.jpg",
+        "md5": "7ea2969345dadb4dff1d58b36628ff78"
+      },
+      {
+        "removed": "training/Fried food/4_817.jpg",
+        "kept": "evaluation/Fried food/4_62.jpg",
+        "md5": "5f9db2cef71a60864ec653bdc1f0670a"
+      },
+      {
+        "removed": "training/Fried food/4_836.jpg",
+        "kept": "evaluation/Fried food/4_12.jpg",
+        "md5": "7da1955281fc071385fc9b3df94503a6"
+      },
+      {
+        "removed": "training/Fried food/4_843.jpg",
+        "kept": "evaluation/Fried food/4_44.jpg",
+        "md5": "8bfc01f462811df0970983abd89521b2"
+      },
+      {
+        "removed": "training/Meat/5_1081.jpg",
+        "kept": "evaluation/Meat/5_21.jpg",
+        "md5": "f0948141b6f4c15724fb89e7f51ceee8"
+      },
+      {
+        "removed": "training/Meat/5_1107.jpg",
+        "kept": "evaluation/Meat/5_425.jpg",
+        "md5": "c419d2bb1b3ae8557338305d95c77ee9"
+      },
+      {
+        "removed": "training/Meat/5_1145.jpg",
+        "kept": "evaluation/Meat/5_304.jpg",
+        "md5": "8a96aa02f4eec0e87fe39da51eba11c8"
+      },
+      {
+        "removed": "training/Meat/5_1182.jpg",
+        "kept": "evaluation/Meat/5_92.jpg",
+        "md5": "4fcdeaa74a00564c0b1ea395bf80fb87"
+      },
+      {
+        "removed": "training/Meat/5_119.jpg",
+        "kept": "evaluation/Meat/5_41.jpg",
+        "md5": "87c6454399622942d798408763a76145"
+      },
+      {
+        "removed": "training/Meat/5_1261.jpg",
+        "kept": "evaluation/Meat/5_144.jpg",
+        "md5": "6430bd524677a55ce6b67649ebc725fe"
+      },
+      {
+        "removed": "training/Meat/5_1286.jpg",
+        "kept": "evaluation/Meat/5_305.jpg",
+        "md5": "c797254089a806fc308ea5e9dcff0706"
+      },
+      {
+        "removed": "training/Meat/5_203.jpg",
+        "kept": "evaluation/Meat/5_85.jpg",
+        "md5": "5018fb320dbfd174a863d6cf7ce53213"
+      },
+      {
+        "removed": "training/Meat/5_216.jpg",
+        "kept": "evaluation/Meat/5_420.jpg",
+        "md5": "39592c422ca453f3cc8db7ccfd5c58c8"
+      },
+      {
+        "removed": "training/Meat/5_246.jpg",
+        "kept": "evaluation/Meat/5_9.jpg",
+        "md5": "610b962af96b293e5012ffc576443b8f"
+      },
+      {
+        "removed": "training/Meat/5_261.jpg",
+        "kept": "evaluation/Meat/5_64.jpg",
+        "md5": "f02f8621351e9ec2c1b934dca037025e"
+      },
+      {
+        "removed": "training/Meat/5_276.jpg",
+        "kept": "evaluation/Meat/5_86.jpg",
+        "md5": "07f012f555faf21dd2f0fe3b4a0f6e4f"
+      },
+      {
+        "removed": "training/Meat/5_288.jpg",
+        "kept": "evaluation/Meat/5_154.jpg",
+        "md5": "cde675ac415771e27439a2122b6fd915"
+      },
+      {
+        "removed": "training/Meat/5_387.jpg",
+        "kept": "evaluation/Meat/5_385.jpg",
+        "md5": "3d15fb20dca3c011eca85b69a924c65b"
+      },
+      {
+        "removed": "training/Meat/5_413.jpg",
+        "kept": "evaluation/Meat/5_84.jpg",
+        "md5": "70d35ec2908d89fe32f3428f987d6117"
+      },
+      {
+        "removed": "training/Meat/5_416.jpg",
+        "kept": "evaluation/Meat/5_221.jpg",
+        "md5": "e1fecf214cc11192887d8332fda09487"
+      },
+      {
+        "removed": "training/Meat/5_442.jpg",
+        "kept": "evaluation/Meat/5_376.jpg",
+        "md5": "1ecb23191db9751ce54d16e316810ab3"
+      },
+      {
+        "removed": "training/Meat/5_506.jpg",
+        "kept": "evaluation/Meat/5_368.jpg",
+        "md5": "d48b6b0baad415a04f1723bb2034480c"
+      },
+      {
+        "removed": "training/Meat/5_534.jpg",
+        "kept": "evaluation/Meat/5_207.jpg",
+        "md5": "ff34e34749d8aa7dc02825a9cbea42f6"
+      },
+      {
+        "removed": "training/Meat/5_678.jpg",
+        "kept": "evaluation/Meat/5_142.jpg",
+        "md5": "bf9b30c651c9bc89fe683d8681d56933"
+      },
+      {
+        "removed": "training/Meat/5_705.jpg",
+        "kept": "evaluation/Meat/5_404.jpg",
+        "md5": "e184b1205989c892c97652cf1085a8cd"
+      },
+      {
+        "removed": "training/Meat/5_711.jpg",
+        "kept": "evaluation/Meat/5_220.jpg",
+        "md5": "bfa487922468b79c587b5e9f7d8b094f"
+      },
+      {
+        "removed": "training/Meat/5_715.jpg",
+        "kept": "evaluation/Meat/5_203.jpg",
+        "md5": "10534a5af17106e24606eb11076eb31b"
+      },
+      {
+        "removed": "training/Meat/5_719.jpg",
+        "kept": "evaluation/Meat/5_273.jpg",
+        "md5": "66ca55a71c93ca98262206c1b5166585"
+      },
+      {
+        "removed": "training/Meat/5_72.jpg",
+        "kept": "evaluation/Meat/5_168.jpg",
+        "md5": "1eb4f09f1fbe58b3cf5eb2d89fac6592"
+      },
+      {
+        "removed": "training/Meat/5_732.jpg",
+        "kept": "evaluation/Meat/5_15.jpg",
+        "md5": "403f83eb50f8ee4a9ad0252f2ed3303c"
+      },
+      {
+        "removed": "training/Meat/5_766.jpg",
+        "kept": "evaluation/Meat/5_223.jpg",
+        "md5": "b02200101f10e6b4f236d144b14d286f"
+      },
+      {
+        "removed": "training/Meat/5_773.jpg",
+        "kept": "evaluation/Meat/5_126.jpg",
+        "md5": "691ce58835d71c2a2848e80aad390318"
+      },
+      {
+        "removed": "training/Meat/5_793.jpg",
+        "kept": "evaluation/Meat/5_299.jpg",
+        "md5": "82ae05d723d030d985222a0b79cd55e2"
+      },
+      {
+        "removed": "training/Meat/5_850.jpg",
+        "kept": "evaluation/Meat/5_268.jpg",
+        "md5": "965247029a080a7bacad2887e4630c7d"
+      },
+      {
+        "removed": "training/Meat/5_864.jpg",
+        "kept": "evaluation/Meat/5_423.jpg",
+        "md5": "28220f5fa24d7bbec648781bd0c85c05"
+      },
+      {
+        "removed": "training/Meat/5_867.jpg",
+        "kept": "evaluation/Meat/5_290.jpg",
+        "md5": "09f9aa1c5b2a77347cfcadb541e84e77"
+      },
+      {
+        "removed": "training/Meat/5_915.jpg",
+        "kept": "evaluation/Meat/5_104.jpg",
+        "md5": "55e874783976db17248fafcf6c370409"
+      },
+      {
+        "removed": "training/Meat/5_930.jpg",
+        "kept": "evaluation/Meat/5_177.jpg",
+        "md5": "a1ad7f1ed62511702c658f660926e6df"
+      },
+      {
+        "removed": "training/Meat/5_963.jpg",
+        "kept": "evaluation/Meat/5_123.jpg",
+        "md5": "9177b2c0b01846f983e8054915dfa136"
+      },
+      {
+        "removed": "training/Rice/7_234.jpg",
+        "kept": "validation/Rice/7_51.jpg",
+        "md5": "2b9db8bf754bd193b7a6b80bc32164b5"
+      },
+      {
+        "removed": "training/Seafood/8_129.jpg",
+        "kept": "evaluation/Seafood/8_41.jpg",
+        "md5": "7686621e72cc8056723bd3f2b9c93018"
+      },
+      {
+        "removed": "training/Seafood/8_149.jpg",
+        "kept": "evaluation/Seafood/8_47.jpg",
+        "md5": "e86a3cd4ce6a194c4857e4668ba67bdf"
+      },
+      {
+        "removed": "training/Seafood/8_210.jpg",
+        "kept": "evaluation/Seafood/8_68.jpg",
+        "md5": "6ac920d64a7715d3fab255184a694d0d"
+      },
+      {
+        "removed": "training/Seafood/8_212.jpg",
+        "kept": "evaluation/Seafood/8_69.jpg",
+        "md5": "e01c87863bc3d55aed8765077c181f93"
+      },
+      {
+        "removed": "training/Seafood/8_272.jpg",
+        "kept": "evaluation/Seafood/8_94.jpg",
+        "md5": "bc0751bc73531b2a5639544f8d32b5bd"
+      },
+      {
+        "removed": "training/Seafood/8_274.jpg",
+        "kept": "evaluation/Seafood/8_96.jpg",
+        "md5": "a5401a2bce1e175dca0dfec005c86dfa"
+      },
+      {
+        "removed": "training/Seafood/8_276.jpg",
+        "kept": "evaluation/Seafood/8_97.jpg",
+        "md5": "e4482c47d595c71b110d2384d6c02861"
+      },
+      {
+        "removed": "training/Seafood/8_283.jpg",
+        "kept": "evaluation/Seafood/8_101.jpg",
+        "md5": "51cb8b106e85f7b05ac8d6e777a91910"
+      },
+      {
+        "removed": "training/Seafood/8_287.jpg",
+        "kept": "evaluation/Seafood/8_102.jpg",
+        "md5": "24daf32afd28a5138805d98035691fd4"
+      },
+      {
+        "removed": "training/Seafood/8_296.jpg",
+        "kept": "evaluation/Seafood/8_105.jpg",
+        "md5": "92f604f9f754a0d06a407f009a4f1884"
+      },
+      {
+        "removed": "training/Seafood/8_300.jpg",
+        "kept": "evaluation/Seafood/8_106.jpg",
+        "md5": "4aa0815ca3dfe9b9709cd4ca9d7e7145"
+      },
+      {
+        "removed": "training/Seafood/8_307.jpg",
+        "kept": "evaluation/Seafood/8_110.jpg",
+        "md5": "1b118c87bcf3ac6a5cf37482675e3c6d"
+      },
+      {
+        "removed": "training/Seafood/8_315.jpg",
+        "kept": "evaluation/Seafood/8_113.jpg",
+        "md5": "43b1160b8a9b7e1bd0d541a2c119de30"
+      },
+      {
+        "removed": "training/Seafood/8_337.jpg",
+        "kept": "evaluation/Seafood/8_121.jpg",
+        "md5": "068b59c9a181ca3512f5baca27d846f3"
+      },
+      {
+        "removed": "training/Seafood/8_340.jpg",
+        "kept": "evaluation/Seafood/8_122.jpg",
+        "md5": "594356e54b3c49c9e13fd2a5d04da7e8"
+      },
+      {
+        "removed": "training/Seafood/8_345.jpg",
+        "kept": "evaluation/Seafood/8_124.jpg",
+        "md5": "79960340a1e6c6a35944e0ecb466993d"
+      },
+      {
+        "removed": "training/Seafood/8_355.jpg",
+        "kept": "evaluation/Seafood/8_128.jpg",
+        "md5": "7579edb7a2a71d5cd69fe2755a2029c2"
+      },
+      {
+        "removed": "training/Seafood/8_371.jpg",
+        "kept": "evaluation/Seafood/8_133.jpg",
+        "md5": "61ba1e4067cb1e5c2a9ba331bcead4c1"
+      },
+      {
+        "removed": "training/Seafood/8_373.jpg",
+        "kept": "evaluation/Seafood/8_135.jpg",
+        "md5": "25a5745cf5d2b68ec9510ce3fc88a492"
+      },
+      {
+        "removed": "training/Seafood/8_374.jpg",
+        "kept": "evaluation/Seafood/8_136.jpg",
+        "md5": "a5f46fc7df8cc823c5b7d9673dd3f0c1"
+      },
+      {
+        "removed": "training/Seafood/8_386.jpg",
+        "kept": "evaluation/Seafood/8_141.jpg",
+        "md5": "2abe5d315ffffd4606036d3029e48633"
+      },
+      {
+        "removed": "training/Seafood/8_390.jpg",
+        "kept": "evaluation/Seafood/8_143.jpg",
+        "md5": "4324dc27c7ae0af345b69d19853a9969"
+      },
+      {
+        "removed": "training/Seafood/8_408.jpg",
+        "kept": "evaluation/Seafood/8_149.jpg",
+        "md5": "1821550823a7b1ab5f76572d633b3765"
+      },
+      {
+        "removed": "training/Seafood/8_413.jpg",
+        "kept": "evaluation/Seafood/8_152.jpg",
+        "md5": "95952d97f39c8968478db552b020638e"
+      },
+      {
+        "removed": "training/Seafood/8_440.jpg",
+        "kept": "evaluation/Seafood/8_167.jpg",
+        "md5": "59950b17bedfb4f4bfd0e5c7967e3257"
+      },
+      {
+        "removed": "training/Seafood/8_455.jpg",
+        "kept": "evaluation/Seafood/8_170.jpg",
+        "md5": "c89323eb6b3bd2c789e5cc538f6e4e17"
+      },
+      {
+        "removed": "training/Seafood/8_483.jpg",
+        "kept": "evaluation/Seafood/8_184.jpg",
+        "md5": "36426219f47346f7c624f206032bf096"
+      },
+      {
+        "removed": "training/Seafood/8_496.jpg",
+        "kept": "evaluation/Seafood/8_188.jpg",
+        "md5": "3a8c2de927210db7ae082ff02f71b082"
+      },
+      {
+        "removed": "training/Seafood/8_506.jpg",
+        "kept": "evaluation/Seafood/8_194.jpg",
+        "md5": "bf0c65ff735ae30221695d563bbe914c"
+      },
+      {
+        "removed": "training/Seafood/8_522.jpg",
+        "kept": "evaluation/Seafood/8_200.jpg",
+        "md5": "ffb3a5dcf1c809bccce0ab530cf5849b"
+      },
+      {
+        "removed": "training/Seafood/8_554.jpg",
+        "kept": "evaluation/Seafood/8_213.jpg",
+        "md5": "a04270a10acd80d0b6bcb877c7f9427b"
+      },
+      {
+        "removed": "training/Seafood/8_555.jpg",
+        "kept": "evaluation/Seafood/8_214.jpg",
+        "md5": "494a645e81e911e619f75cc49c602428"
+      },
+      {
+        "removed": "training/Seafood/8_560.jpg",
+        "kept": "evaluation/Seafood/8_216.jpg",
+        "md5": "044a1911872b30b413ecf7fd0831a02d"
+      },
+      {
+        "removed": "training/Seafood/8_657.jpg",
+        "kept": "evaluation/Seafood/8_247.jpg",
+        "md5": "0509b2eb3918ad7da1b2f176dcacac72"
+      },
+      {
+        "removed": "training/Seafood/8_667.jpg",
+        "kept": "evaluation/Seafood/8_249.jpg",
+        "md5": "f2688b347950d4d603302c74c2504269"
+      },
+      {
+        "removed": "training/Seafood/8_684.jpg",
+        "kept": "evaluation/Seafood/8_253.jpg",
+        "md5": "4eb50da4fbe96bcc38ebea8b4bf34863"
+      },
+      {
+        "removed": "training/Seafood/8_695.jpg",
+        "kept": "evaluation/Seafood/8_257.jpg",
+        "md5": "8a47108ab59801efbb5d1a1a13fde1d3"
+      },
+      {
+        "removed": "training/Seafood/8_702.jpg",
+        "kept": "evaluation/Seafood/8_261.jpg",
+        "md5": "55d314254010a35f389eedd7b8d09ea5"
+      },
+      {
+        "removed": "training/Seafood/8_743.jpg",
+        "kept": "evaluation/Seafood/8_272.jpg",
+        "md5": "cde8d4b1ea2749b3c8ff286901903cef"
+      },
+      {
+        "removed": "training/Seafood/8_770.jpg",
+        "kept": "evaluation/Seafood/8_278.jpg",
+        "md5": "872ca05fdb276ca297d45968ddeb87d5"
+      },
+      {
+        "removed": "training/Seafood/8_789.jpg",
+        "kept": "evaluation/Seafood/8_284.jpg",
+        "md5": "65e16baf0fce426da12710803a41d49d"
+      },
+      {
+        "removed": "training/Seafood/8_799.jpg",
+        "kept": "evaluation/Seafood/8_287.jpg",
+        "md5": "7863aa587e9bf1fce56887892d93868d"
+      },
+      {
+        "removed": "training/Seafood/8_805.jpg",
+        "kept": "evaluation/Seafood/8_289.jpg",
+        "md5": "a6e21fb2f9ef98f85b7074187ef4444c"
+      },
+      {
+        "removed": "training/Seafood/8_829.jpg",
+        "kept": "evaluation/Seafood/8_295.jpg",
+        "md5": "628ed0169d3aa8d5dd03056df6154707"
+      },
+      {
+        "removed": "training/Seafood/8_834.jpg",
+        "kept": "evaluation/Seafood/8_297.jpg",
+        "md5": "fdefefb01eabb13027e2754d57ccf87d"
+      },
+      {
+        "removed": "training/Seafood/8_835.jpg",
+        "kept": "evaluation/Seafood/8_299.jpg",
+        "md5": "408cbb7c0f4345d9828f250667fd4b5b"
+      },
+      {
+        "removed": "training/Seafood/8_843.jpg",
+        "kept": "evaluation/Seafood/8_302.jpg",
+        "md5": "a50f93156bf6d480f56e8dad457074ff"
+      },
+      {
+        "removed": "training/Seafood/8_91.jpg",
+        "kept": "evaluation/Seafood/8_32.jpg",
+        "md5": "e16c0ed262b843171cc7f693b4bad3de"
+      },
+      {
+        "removed": "training/Soup/9_1012.jpg",
+        "kept": "evaluation/Soup/9_335.jpg",
+        "md5": "ff7d55465a4a3a889ac38b6e27395def"
+      },
+      {
+        "removed": "training/Soup/9_1031.jpg",
+        "kept": "evaluation/Soup/9_340.jpg",
+        "md5": "884bbfc0ba13a8350e3ecb9d3ebca80a"
+      },
+      {
+        "removed": "training/Soup/9_1098.jpg",
+        "kept": "evaluation/Soup/9_362.jpg",
+        "md5": "27adeffad33cde5208f09347aaf5f348"
+      },
+      {
+        "removed": "training/Soup/9_1109.jpg",
+        "kept": "evaluation/Soup/9_365.jpg",
+        "md5": "20b297f5b11cc3c3a86a6da2cb2d5cf3"
+      },
+      {
+        "removed": "training/Soup/9_1139.jpg",
+        "kept": "evaluation/Soup/9_373.jpg",
+        "md5": "335baa28e3d7b0afcc3a3c57e677213b"
+      },
+      {
+        "removed": "training/Soup/9_1146.jpg",
+        "kept": "evaluation/Soup/9_379.jpg",
+        "md5": "68b0c9d8b6283bc8843aa1cfd042355d"
+      },
+      {
+        "removed": "training/Soup/9_1160.jpg",
+        "kept": "evaluation/Soup/9_385.jpg",
+        "md5": "640d7993e80b215d7822e03e7af51576"
+      },
+      {
+        "removed": "training/Soup/9_1186.jpg",
+        "kept": "evaluation/Soup/9_393.jpg",
+        "md5": "6bfead7fadeabe26c1486a80d3073faf"
+      },
+      {
+        "removed": "training/Soup/9_1191.jpg",
+        "kept": "evaluation/Soup/9_396.jpg",
+        "md5": "bf46cf7e49721db99441653fab2161af"
+      },
+      {
+        "removed": "training/Soup/9_122.jpg",
+        "kept": "evaluation/Soup/9_39.jpg",
+        "md5": "11f28a4405185f2d0570b46fd6c2ef2b"
+      },
+      {
+        "removed": "training/Soup/9_1230.jpg",
+        "kept": "evaluation/Soup/9_407.jpg",
+        "md5": "57f2adc92cf08b3d53b99c5396f91035"
+      },
+      {
+        "removed": "training/Soup/9_1271.jpg",
+        "kept": "evaluation/Soup/9_422.jpg",
+        "md5": "3677265b9a56e1725c93fd5960fb8ee6"
+      },
+      {
+        "removed": "training/Soup/9_1329.jpg",
+        "kept": "evaluation/Soup/9_445.jpg",
+        "md5": "927ebe4f63a7d4468bcce3f521603f95"
+      },
+      {
+        "removed": "training/Soup/9_1351.jpg",
+        "kept": "evaluation/Soup/9_452.jpg",
+        "md5": "242432eedf57f6948d098ab89137a2b2"
+      },
+      {
+        "removed": "training/Soup/9_1353.jpg",
+        "kept": "evaluation/Soup/9_454.jpg",
+        "md5": "e1d965d236c60abf67ee88cfec9879fd"
+      },
+      {
+        "removed": "training/Soup/9_1358.jpg",
+        "kept": "evaluation/Soup/9_456.jpg",
+        "md5": "bc88d9a717ce66259bbd66974ee36741"
+      },
+      {
+        "removed": "training/Soup/9_1361.jpg",
+        "kept": "evaluation/Soup/9_457.jpg",
+        "md5": "a114a1d1a471b7de80c380088c0b1d12"
+      },
+      {
+        "removed": "training/Soup/9_1389.jpg",
+        "kept": "evaluation/Soup/9_476.jpg",
+        "md5": "fc3e0237d9ec9a301ee52c411df30cd4"
+      },
+      {
+        "removed": "training/Soup/9_140.jpg",
+        "kept": "evaluation/Soup/9_49.jpg",
+        "md5": "54616227d5d9efe9befa367b2880daa8"
+      },
+      {
+        "removed": "training/Soup/9_1451.jpg",
+        "kept": "evaluation/Soup/9_489.jpg",
+        "md5": "bc8a23569464634eef579c7a9f248561"
+      },
+      {
+        "removed": "training/Soup/9_1464.jpg",
+        "kept": "evaluation/Soup/9_492.jpg",
+        "md5": "d761d1f4148958db0edde34d0542f3dc"
+      },
+      {
+        "removed": "training/Soup/9_1497.jpg",
+        "kept": "evaluation/Soup/9_499.jpg",
+        "md5": "0e3149def7f3c4f8162db4d2b10bbd66"
+      },
+      {
+        "removed": "training/Soup/9_167.jpg",
+        "kept": "evaluation/Soup/9_66.jpg",
+        "md5": "e11eae68e9a22335a5f37aa913e447ed"
+      },
+      {
+        "removed": "training/Soup/9_198.jpg",
+        "kept": "evaluation/Soup/9_76.jpg",
+        "md5": "193228c875f0812589d1a014f3745d5a"
+      },
+      {
+        "removed": "training/Soup/9_224.jpg",
+        "kept": "evaluation/Soup/9_83.jpg",
+        "md5": "7991bf8b7ecbc48fe3a107acd1da0d4a"
+      },
+      {
+        "removed": "training/Soup/9_229.jpg",
+        "kept": "evaluation/Soup/9_85.jpg",
+        "md5": "2cb1866fc3d57e0b42d241ebe5d7e35a"
+      },
+      {
+        "removed": "training/Soup/9_236.jpg",
+        "kept": "evaluation/Soup/9_88.jpg",
+        "md5": "52b1d8e2761d71d76d97d4ab01f33a27"
+      },
+      {
+        "removed": "training/Soup/9_28.jpg",
+        "kept": "evaluation/Soup/9_7.jpg",
+        "md5": "9fc9b590160106c16a0fb18e82718107"
+      },
+      {
+        "removed": "training/Soup/9_309.jpg",
+        "kept": "evaluation/Soup/9_106.jpg",
+        "md5": "a1d341c89eb4a975eeedbc62f924b7e7"
+      },
+      {
+        "removed": "training/Soup/9_312.jpg",
+        "kept": "evaluation/Soup/9_107.jpg",
+        "md5": "8e0308b1db2b351958f86a1d46b528be"
+      },
+      {
+        "removed": "training/Soup/9_318.jpg",
+        "kept": "evaluation/Soup/9_108.jpg",
+        "md5": "a34a52ae3863eda037cba966d55aab1b"
+      },
+      {
+        "removed": "training/Soup/9_339.jpg",
+        "kept": "evaluation/Soup/9_114.jpg",
+        "md5": "e3b254bce06ba8ea43ee57e1e3093d71"
+      },
+      {
+        "removed": "training/Soup/9_347.jpg",
+        "kept": "evaluation/Soup/9_116.jpg",
+        "md5": "100b43c981b514c5873cd0a6c99a6a43"
+      },
+      {
+        "removed": "training/Soup/9_35.jpg",
+        "kept": "evaluation/Soup/9_9.jpg",
+        "md5": "8f82d738839aaae0fe8b8e1e12a3f354"
+      },
+      {
+        "removed": "training/Soup/9_368.jpg",
+        "kept": "evaluation/Soup/9_120.jpg",
+        "md5": "bdba40a7d3f1da1cd963c9b7d0018c23"
+      },
+      {
+        "removed": "training/Soup/9_38.jpg",
+        "kept": "evaluation/Soup/9_10.jpg",
+        "md5": "c5337037fff2daa379c42a8b0f2eb732"
+      },
+      {
+        "removed": "training/Soup/9_380.jpg",
+        "kept": "evaluation/Soup/9_121.jpg",
+        "md5": "c9d34e10d0b6ab1c7f53f28ee68eae2a"
+      },
+      {
+        "removed": "training/Soup/9_384.jpg",
+        "kept": "evaluation/Soup/9_122.jpg",
+        "md5": "fd744de941675b932174851eb49bf232"
+      },
+      {
+        "removed": "training/Soup/9_407.jpg",
+        "kept": "evaluation/Soup/9_128.jpg",
+        "md5": "4371d4dd284ca89424797dd22c4602c3"
+      },
+      {
+        "removed": "training/Soup/9_442.jpg",
+        "kept": "evaluation/Soup/9_137.jpg",
+        "md5": "e64f3ed46d16eb9d360e2f3e899ad299"
+      },
+      {
+        "removed": "training/Soup/9_449.jpg",
+        "kept": "evaluation/Soup/9_142.jpg",
+        "md5": "c39fe69c09dd13d9f736ea0958755138"
+      },
+      {
+        "removed": "training/Soup/9_458.jpg",
+        "kept": "evaluation/Soup/9_144.jpg",
+        "md5": "8e22e53ada26b39a2d3c11c543d1e940"
+      },
+      {
+        "removed": "training/Soup/9_511.jpg",
+        "kept": "evaluation/Soup/9_164.jpg",
+        "md5": "21fe49991edaeb70a218ce5fa76f383e"
+      },
+      {
+        "removed": "training/Soup/9_524.jpg",
+        "kept": "evaluation/Soup/9_168.jpg",
+        "md5": "3bac06d9d827191600d61dcadd27af0f"
+      },
+      {
+        "removed": "training/Soup/9_546.jpg",
+        "kept": "evaluation/Soup/9_176.jpg",
+        "md5": "988ffb5834bd48a0a52466ec3455a696"
+      },
+      {
+        "removed": "training/Soup/9_55.jpg",
+        "kept": "evaluation/Soup/9_15.jpg",
+        "md5": "f1f29790a29141ff1110b95b751c2396"
+      },
+      {
+        "removed": "training/Soup/9_554.jpg",
+        "kept": "evaluation/Soup/9_177.jpg",
+        "md5": "aa33b0166d3d242f3af82893e4bfe5b3"
+      },
+      {
+        "removed": "training/Soup/9_558.jpg",
+        "kept": "evaluation/Soup/9_180.jpg",
+        "md5": "70352743f627c48ca5dd3b149dd86588"
+      },
+      {
+        "removed": "training/Soup/9_574.jpg",
+        "kept": "evaluation/Soup/9_185.jpg",
+        "md5": "92ee78024369504f0a14a6e3945c6010"
+      },
+      {
+        "removed": "training/Soup/9_579.jpg",
+        "kept": "evaluation/Soup/9_188.jpg",
+        "md5": "5b7378c946b16c69b01da8123e73d833"
+      },
+      {
+        "removed": "training/Soup/9_590.jpg",
+        "kept": "evaluation/Soup/9_191.jpg",
+        "md5": "8cd6acc20dcb1a63f7e204cf06b9cbb3"
+      },
+      {
+        "removed": "training/Soup/9_60.jpg",
+        "kept": "evaluation/Soup/9_16.jpg",
+        "md5": "08ea80aed3615d402be62129c52ef0d8"
+      },
+      {
+        "removed": "training/Soup/9_602.jpg",
+        "kept": "evaluation/Soup/9_195.jpg",
+        "md5": "727ac161e8a76d86d6a317737c71d500"
+      },
+      {
+        "removed": "training/Soup/9_606.jpg",
+        "kept": "evaluation/Soup/9_196.jpg",
+        "md5": "702cdf93e65e9e0624d76fd758a69268"
+      },
+      {
+        "removed": "training/Soup/9_62.jpg",
+        "kept": "evaluation/Soup/9_19.jpg",
+        "md5": "e8bd3b75e751f1de0260cf11302407c5"
+      },
+      {
+        "removed": "training/Soup/9_622.jpg",
+        "kept": "evaluation/Soup/9_201.jpg",
+        "md5": "73d34c39702c0665c527185356c3cbc2"
+      },
+      {
+        "removed": "training/Soup/9_623.jpg",
+        "kept": "evaluation/Soup/9_202.jpg",
+        "md5": "4879b27b3b3f278f57bea5a6bc019893"
+      },
+      {
+        "removed": "training/Soup/9_635.jpg",
+        "kept": "evaluation/Soup/9_205.jpg",
+        "md5": "0ccf6ca6feb70bf6de5999f40fa56707"
+      },
+      {
+        "removed": "training/Soup/9_639.jpg",
+        "kept": "evaluation/Soup/9_206.jpg",
+        "md5": "dc0ca3c63ff664b569075ceb3cb817e8"
+      },
+      {
+        "removed": "training/Soup/9_641.jpg",
+        "kept": "evaluation/Soup/9_208.jpg",
+        "md5": "f0097fc1c764d6743e5b50fd185e8082"
+      },
+      {
+        "removed": "training/Soup/9_661.jpg",
+        "kept": "evaluation/Soup/9_216.jpg",
+        "md5": "e5f3809e447ddb2b54a0b22f6e6f8a8d"
+      },
+      {
+        "removed": "training/Soup/9_668.jpg",
+        "kept": "evaluation/Soup/9_219.jpg",
+        "md5": "45dde8150b8b908de306182976ebbeaf"
+      },
+      {
+        "removed": "training/Soup/9_71.jpg",
+        "kept": "evaluation/Soup/9_22.jpg",
+        "md5": "6f279d9c32743aecd02a739128b70d20"
+      },
+      {
+        "removed": "training/Soup/9_710.jpg",
+        "kept": "evaluation/Soup/9_231.jpg",
+        "md5": "765bb8cea2bab60c78c948bb83ae07cf"
+      },
+      {
+        "removed": "training/Soup/9_738.jpg",
+        "kept": "evaluation/Soup/9_243.jpg",
+        "md5": "8f551b7f2a81b6e82d1fe9cef8ba7aac"
+      },
+      {
+        "removed": "training/Soup/9_753.jpg",
+        "kept": "evaluation/Soup/9_250.jpg",
+        "md5": "0d8c0ec3b01bb17adf67c206488ec5f4"
+      },
+      {
+        "removed": "training/Soup/9_776.jpg",
+        "kept": "evaluation/Soup/9_258.jpg",
+        "md5": "ba6797fdd72111fdfe98c7fce52275cb"
+      },
+      {
+        "removed": "training/Soup/9_777.jpg",
+        "kept": "evaluation/Soup/9_260.jpg",
+        "md5": "d54d7c69167a1feeb91d1cbd81b8e95a"
+      },
+      {
+        "removed": "training/Soup/9_78.jpg",
+        "kept": "evaluation/Soup/9_23.jpg",
+        "md5": "e6d2fe4b84e7a10b27023755b36215df"
+      },
+      {
+        "removed": "training/Soup/9_784.jpg",
+        "kept": "evaluation/Soup/9_261.jpg",
+        "md5": "bec5751ab078f3ae32b73aed79980c35"
+      },
+      {
+        "removed": "training/Soup/9_8.jpg",
+        "kept": "evaluation/Soup/9_4.jpg",
+        "md5": "d4f3f7bc3208cfaedc51bb514e2918a2"
+      },
+      {
+        "removed": "training/Soup/9_844.jpg",
+        "kept": "evaluation/Soup/9_278.jpg",
+        "md5": "16e51541bf20a413c72b93ab56b543a8"
+      },
+      {
+        "removed": "training/Soup/9_854.jpg",
+        "kept": "evaluation/Soup/9_283.jpg",
+        "md5": "fd9200dd509205e688c4e652de27941f"
+      },
+      {
+        "removed": "training/Soup/9_857.jpg",
+        "kept": "evaluation/Soup/9_284.jpg",
+        "md5": "e3b18d5e769c9f9eebec1ba7382395cf"
+      },
+      {
+        "removed": "training/Soup/9_864.jpg",
+        "kept": "evaluation/Soup/9_286.jpg",
+        "md5": "22852489527ac8c6c297383baab6e284"
+      },
+      {
+        "removed": "training/Soup/9_880.jpg",
+        "kept": "evaluation/Soup/9_288.jpg",
+        "md5": "6d7ed8cd3265767e21c8b9ab4a5191cf"
+      },
+      {
+        "removed": "training/Soup/9_916.jpg",
+        "kept": "evaluation/Soup/9_299.jpg",
+        "md5": "a8b038c9b0851ebc5a2f4d5fc04d33b9"
+      },
+      {
+        "removed": "training/Soup/9_954.jpg",
+        "kept": "evaluation/Soup/9_314.jpg",
+        "md5": "b1e2740e1f3c801fd834a8101c8e9021"
+      },
+      {
+        "removed": "training/Vegetable-Fruit/10_548.jpg",
+        "kept": "evaluation/Vegetable-Fruit/10_2.jpg",
+        "md5": "a7b549572e71e53324b22d06e1fc51c5"
+      },
+      {
+        "removed": "training/Vegetable-Fruit/10_613.jpg",
+        "kept": "evaluation/Vegetable-Fruit/10_69.jpg",
+        "md5": "040923b28cb60d6d4ad969bedf65cb08"
+      }
+    ],
+    "data/food11_processed_mini": [
+      {
+        "removed": "validation/Bread/0_11.jpg",
+        "kept": "evaluation/Bread/0_13.jpg",
+        "md5": "20b4d6f1c6c24add8b124a3c85071b60"
+      },
+      {
+        "removed": "validation/Bread/0_129.jpg",
+        "kept": "evaluation/Bread/0_138.jpg",
+        "md5": "13f57a37dd78f0214b24cabfd200d58d"
+      },
+      {
+        "removed": "validation/Bread/0_150.jpg",
+        "kept": "evaluation/Bread/0_17.jpg",
+        "md5": "a7c7d13ff14b4d70c6e95d1728812b00"
+      },
+      {
+        "removed": "validation/Bread/0_152.jpg",
+        "kept": "evaluation/Bread/0_149.jpg",
+        "md5": "e5a6a7e39f5928eafba2facf096c8294"
+      },
+      {
+        "removed": "validation/Bread/0_167.jpg",
+        "kept": "evaluation/Bread/0_105.jpg",
+        "md5": "81590e556bf77cb0c46e869cdbb53f34"
+      },
+      {
+        "removed": "validation/Bread/0_174.jpg",
+        "kept": "evaluation/Bread/0_1.jpg",
+        "md5": "5692f108eb4daa330adf11cb0a58229f"
+      },
+      {
+        "removed": "validation/Dessert/2_12.jpg",
+        "kept": "evaluation/Dessert/2_14.jpg",
+        "md5": "f9051fe04a3e3a82672e243cc1c1f28f"
+      },
+      {
+        "removed": "validation/Dessert/2_120.jpg",
+        "kept": "evaluation/Dessert/2_112.jpg",
+        "md5": "ad6d0b1b0f31e92fc20422b1c35f7df0"
+      },
+      {
+        "removed": "validation/Dessert/2_129.jpg",
+        "kept": "evaluation/Dessert/2_117.jpg",
+        "md5": "14acb9c80a0d93926cdd8bbf85a25574"
+      },
+      {
+        "removed": "validation/Dessert/2_132.jpg",
+        "kept": "evaluation/Dessert/2_129.jpg",
+        "md5": "217ff9a5a341439a9cba6fdcde40e062"
+      },
+      {
+        "removed": "validation/Dessert/2_133.jpg",
+        "kept": "evaluation/Dessert/2_134.jpg",
+        "md5": "f332465e3c6a3192524fbf6f0cbb22a8"
+      },
+      {
+        "removed": "validation/Dessert/2_141.jpg",
+        "kept": "evaluation/Dessert/2_139.jpg",
+        "md5": "4ec41263fe4a9e2213e04b71a86d436e"
+      },
+      {
+        "removed": "validation/Dessert/2_150.jpg",
+        "kept": "evaluation/Dessert/2_158.jpg",
+        "md5": "170c8feaadbc9995aa819e9d2c1af690"
+      },
+      {
+        "removed": "validation/Dessert/2_155.jpg",
+        "kept": "evaluation/Dessert/2_160.jpg",
+        "md5": "ccadc59ad3f45770c2e21cb4af05611d"
+      },
+      {
+        "removed": "validation/Dessert/2_164.jpg",
+        "kept": "evaluation/Dessert/2_166.jpg",
+        "md5": "221135e4243fa277d141175c981d2a41"
+      },
+      {
+        "removed": "validation/Dessert/2_176.jpg",
+        "kept": "evaluation/Dessert/2_174.jpg",
+        "md5": "b39e669d21500fee0c32a5ede2c110fe"
+      },
+      {
+        "removed": "validation/Dessert/2_18.jpg",
+        "kept": "evaluation/Dessert/2_16.jpg",
+        "md5": "05281037d7ac401482b3fb2978581503"
+      },
+      {
+        "removed": "validation/Fried food/4_103.jpg",
+        "kept": "evaluation/Fried food/4_147.jpg",
+        "md5": "66d18571ea99a0018654e1829ac3c238"
+      },
+      {
+        "removed": "validation/Fried food/4_13.jpg",
+        "kept": "evaluation/Fried food/4_159.jpg",
+        "md5": "22000347d9956301174223ecb16ad274"
+      },
+      {
+        "removed": "validation/Meat/5_107.jpg",
+        "kept": "evaluation/Meat/5_166.jpg",
+        "md5": "ae8807a66c9d88fba9ffe315cdd2473e"
+      },
+      {
+        "removed": "validation/Meat/5_123.jpg",
+        "kept": "evaluation/Meat/5_13.jpg",
+        "md5": "ea71af77f522c66243f80864a60120e0"
+      },
+      {
+        "removed": "validation/Meat/5_174.jpg",
+        "kept": "evaluation/Meat/5_119.jpg",
+        "md5": "4a2828d3a7e4b705df2362caa405dfd5"
+      },
+      {
+        "removed": "validation/Seafood/8_102.jpg",
+        "kept": "evaluation/Seafood/8_100.jpg",
+        "md5": "6b154ac379ab882ebaccb04cd59ebe4f"
+      },
+      {
+        "removed": "validation/Seafood/8_110.jpg",
+        "kept": "evaluation/Seafood/8_108.jpg",
+        "md5": "2f69de2575bb123166efec97d1761b40"
+      },
+      {
+        "removed": "validation/Seafood/8_125.jpg",
+        "kept": "evaluation/Seafood/8_123.jpg",
+        "md5": "d0544fae951d720926109429517cb930"
+      },
+      {
+        "removed": "validation/Seafood/8_130.jpg",
+        "kept": "evaluation/Seafood/8_134.jpg",
+        "md5": "8f6851ec6ddaba800a4c368ad91587dc"
+      },
+      {
+        "removed": "validation/Seafood/8_133.jpg",
+        "kept": "evaluation/Seafood/8_137.jpg",
+        "md5": "aad8776c853ffa64cd6e0f5b4181633e"
+      },
+      {
+        "removed": "validation/Seafood/8_134.jpg",
+        "kept": "evaluation/Seafood/8_138.jpg",
+        "md5": "e355b35c656f7685531c7d3bbe6b520e"
+      },
+      {
+        "removed": "validation/Seafood/8_139.jpg",
+        "kept": "evaluation/Seafood/8_139.jpg",
+        "md5": "0982218cdfbb4528fefeecdae5960aa7"
+      },
+      {
+        "removed": "validation/Seafood/8_141.jpg",
+        "kept": "evaluation/Seafood/8_140.jpg",
+        "md5": "e6d128486a271e5c2e051bc45319b323"
+      },
+      {
+        "removed": "validation/Seafood/8_167.jpg",
+        "kept": "evaluation/Seafood/8_164.jpg",
+        "md5": "220760f6d1b6202de79d0f67467dbeb2"
+      },
+      {
+        "removed": "validation/Seafood/8_183.jpg",
+        "kept": "evaluation/Seafood/8_177.jpg",
+        "md5": "15060bc9b1d1157d034f331615ec69e2"
+      },
+      {
+        "removed": "validation/Seafood/8_187.jpg",
+        "kept": "evaluation/Seafood/8_186.jpg",
+        "md5": "7debb808009874910d4067dc3183daa4"
+      },
+      {
+        "removed": "validation/Soup/9_151.jpg",
+        "kept": "evaluation/Soup/9_148.jpg",
+        "md5": "01b97eb6cad392e257b73e6f4ede3e4b"
+      },
+      {
+        "removed": "validation/Soup/9_152.jpg",
+        "kept": "evaluation/Soup/9_150.jpg",
+        "md5": "800f663212950d4e9827291e961df6df"
+      },
+      {
+        "removed": "validation/Soup/9_166.jpg",
+        "kept": "evaluation/Soup/9_162.jpg",
+        "md5": "a4e1687377ff29b401863dd20c5fc28d"
+      },
+      {
+        "removed": "validation/Soup/9_172.jpg",
+        "kept": "evaluation/Soup/9_170.jpg",
+        "md5": "4f5f6a530f34d92035b344841a38b988"
+      },
+      {
+        "removed": "validation/Vegetable-Fruit/10_138.jpg",
+        "kept": "evaluation/Vegetable-Fruit/10_106.jpg",
+        "md5": "411dbb7557775856be32bd6afbb248dd"
+      },
+      {
+        "removed": "training/Bread/0_106.jpg",
+        "kept": "evaluation/Bread/0_131.jpg",
+        "md5": "5a8866187bb55b369b494323524e7e4d"
+      },
+      {
+        "removed": "training/Bread/0_186.jpg",
+        "kept": "evaluation/Bread/0_139.jpg",
+        "md5": "d8b3694a281b427c9eff97af26689185"
+      },
+      {
+        "removed": "training/Dairy product/1_185.jpg",
+        "kept": "validation/Dairy product/1_123.jpg",
+        "md5": "9cc92eb2df49bc3f37cb3fa74a6aa153"
+      },
+      {
+        "removed": "training/Dessert/2_1046.jpg",
+        "kept": "validation/Dessert/2_154.jpg",
+        "md5": "f27f4ad2a89862f766ec242386dd948d"
+      },
+      {
+        "removed": "training/Fried food/4_167.jpg",
+        "kept": "evaluation/Fried food/4_123.jpg",
+        "md5": "a7c0e1586561cf1806a8e5c7618fab25"
+      }
+    ]
+  }
+}

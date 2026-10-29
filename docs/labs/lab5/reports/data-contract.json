@@ -1,0 +1,30 @@
+{
+  "food11_processed": {
+    "checks": {
+      "class folders": true,
+      "RGB 128x128 images": true,
+      "minimum class counts": true,
+      "no cross-split duplicates": true,
+      "class balance": true
+    },
+    "counts": {
+      "training": 9565,
+      "validation": 3119,
+      "evaluation": 3347
+    }
+  },
+  "food11_processed_mini": {
+    "checks": {
+      "class folders": true,
+      "RGB 128x128 images": true,
+      "minimum class counts": true,
+      "no cross-split duplicates": true,
+      "class balance": true
+    },
+    "counts": {
+      "training": 1095,
+      "validation": 1058,
+      "evaluation": 1096
+    }
+  }
+}
