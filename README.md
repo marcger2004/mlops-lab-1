@@ -11,7 +11,8 @@ The lab notes are in `docs/labs/`, with a folder for each lab. Here's where
 the rest of the project lives:
 
 ```text
-docs/labs/          Lab instructions, answers, and run guides
+docs/labs/         Lab instructions, answers, run guides, and verification reports
+.github/workflows/ Automated CI/CD workflows
 src/food11/        Code to prepare data, train models, and serve predictions
 tests/             Tests for data preparation, the API, and the frontend
 frontend/          The web app for uploading an image and seeing its prediction
@@ -43,7 +44,7 @@ Related configuration files are grouped in the sidebar: expand
 | Lab 4 | [Instructions](docs/labs/lab4/instructions.md) · [Run guide](docs/labs/lab4/README.md) | [Answers](docs/labs/lab4/answers.md) |
 
 The Lab 1 and Lab 2 instruction files are placeholders until their original
-handouts are added. The Lab 3 and Lab 4 handouts and run guides are available.
+handouts are added. The Lab 3, Lab 4, and Lab 5 handouts and run guides are available.
 
 ## Setup
 
@@ -101,6 +102,10 @@ The training script logs parameters, per-epoch training and validation metrics,
 final evaluation accuracy, and the trained PyTorch model to the `food11`
 experiment. Use `--dataset processed` for the full processed dataset.
 
-## Lab 5: CI/CD
+## CI/CD
 
-See [Lab 5 answers and pipeline](lab/lab5.md). Run `uv run ruff check src tests`, `uv run pytest -q`, and `uv run python -m food11.validate_data data/food11_processed_mini`. The GitHub workflow tests, smoke-checks the container, and publishes SHA-tagged images on main. Promote registered candidates with `uv run python -m food11.promote --version N --n TEST_SIZE`.
+GitHub Actions runs code checks and a container smoke test on every push and
+pull request. Successful pushes to main publish a container image tagged with
+the commit SHA. The [Lab 5 run guide](docs/labs/lab5/README.md) documents local
+checks, data validation, and model promotion; the
+[verification report](docs/labs/lab5/reports/verification.md) records the results.
