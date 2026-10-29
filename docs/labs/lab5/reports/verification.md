@@ -110,3 +110,11 @@ successfully. The [container smoke report](container-smoke.json) records the
 published SHA tag, image digest, healthy response, and expected HTTP 503 from
 predict in SKIP_MODEL mode. The temporary container was removed after testing.
 This validates the published code image; it does not load a registry model.
+
+## Controlled duplicate experiment
+
+After cleanup, the mini dataset passed every check. A real training/Bread image
+was copied to evaluation/Bread under a different filename. Only the cross-split
+hash check failed. Removing that temporary copy restored all checks to PASS.
+The [before/during/after report](duplicate-experiment.json) records this controlled
+experiment separately from the historical duplicate audit.

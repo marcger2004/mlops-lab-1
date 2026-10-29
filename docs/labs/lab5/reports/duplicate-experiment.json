@@ -1,0 +1,26 @@
+{
+  "source": "training/Bread/0_0.jpg",
+  "temporary_copy": "evaluation/Bread/lab5_deliberate_duplicate.jpg",
+  "before": {
+    "class folders": true,
+    "RGB 128x128 images": true,
+    "minimum class counts": true,
+    "no cross-split duplicates": true,
+    "class balance": true
+  },
+  "with_duplicate": {
+    "class folders": true,
+    "RGB 128x128 images": true,
+    "minimum class counts": true,
+    "no cross-split duplicates": false,
+    "class balance": true
+  },
+  "after_removal": {
+    "class folders": true,
+    "RGB 128x128 images": true,
+    "minimum class counts": true,
+    "no cross-split duplicates": true,
+    "class balance": true
+  },
+  "temporary_copy_removed": true
+}
