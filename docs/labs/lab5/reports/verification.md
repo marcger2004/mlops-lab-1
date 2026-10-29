@@ -61,11 +61,11 @@ uv run python -m food11.validate_data data/food11_processed
 uv run python -m food11.validate_data data/food11_processed_mini
 ```
 
-## Experiments still to complete
+## Integration experiments
 
 | Experiment | Status |
 | --- | --- |
-| Local container smoke test and registry pull | Docker started; pull attempt failed when the signed layer URL expired; cloud container smoke passed |
+| Local container smoke test and registry pull | Passed: published SHA image pulled; health 200; model-free prediction 503 |
 | Real candidate training and promotion | Completed: two real runs; both challenger; champion 1 retained |
 | First/second Actions timing comparison | Measured: 5m28s and 6m34s; see ci-runs.json |
 | Required checks and failing-then-fixed pull request | Protection enabled; failing and blocked PR recorded; corrected test and smoke checks passed |
@@ -75,8 +75,9 @@ The [initial Actions run](https://github.com/marcger2004/mlops-lab-1/actions/run
 completed successfully for commit 55a82cb: test, smoke, and registry publication
 all passed. The container is published as
 `ghcr.io/marcger2004/mlops-lab-1:55a82cb40cffcec952ae75d15a1a724fa8e5141f`.
-The exact image tag is the full commit SHA shown by that run. The local pull,
-branch-protection experiment, and real-model promotion remain unverified.
+The exact image tag is the full commit SHA shown by that run. Branch-protection
+and real-model gate evidence have since been completed and are recorded below.
+The local registry-pull status is listed in the integration table.
 
 ## Protected branch experiment
 
@@ -101,3 +102,11 @@ without moving champion first, and invokes the gate after each training run.
 
 The [empty-commit comparison](ci-empty-commit.json) also records the repeat CI
 experiment with identical code: 1m32s before the empty commit and 1m40s after it.
+
+## Published image checked locally
+
+The initial pull failed when a signed layer URL expired. A retry completed
+successfully. The [container smoke report](container-smoke.json) records the
+published SHA tag, image digest, healthy response, and expected HTTP 503 from
+predict in SKIP_MODEL mode. The temporary container was removed after testing.
+This validates the published code image; it does not load a registry model.

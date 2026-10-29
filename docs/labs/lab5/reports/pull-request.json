@@ -64,5 +64,10 @@
       "id": 40895530148,
       "conclusion": "success"
     }
+  ],
+  "empty_commit": "6628cc5d7a826f7dd1559ebf064a32f614980b6c",
+  "empty_commit_runs": [
+    40898661297,
+    40898670278
   ]
 }
