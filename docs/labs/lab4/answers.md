@@ -1,6 +1,6 @@
 # Lab 4: Docker Compose
 
-[Lab index](../../../README.md#lab-documentation) | [Instructions](instructions.md) | [Run guide](README.md)
+[Lab index](../index.md) | [Instructions](instructions.md)
 
 ## Question 1: Running without a volume
 

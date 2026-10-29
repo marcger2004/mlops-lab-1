@@ -1,6 +1,6 @@
 # Lab 5: verification report
 
-[Run guide](../README.md) | [Answers](../answers.md)
+[Answers](../answers.md)
 
 ## Local checks
 
@@ -35,8 +35,11 @@ The test suite emitted two upstream TestClient deprecation warnings.
 | Real candidate training and promotion | MLflow was stopped; dataset leakage also blocks training |
 | First/second Actions timing comparison | Not measured |
 | Required checks and failing-then-fixed pull request | Not demonstrated |
-| GHCR image publication | Awaiting verification of the Actions result |
+| GHCR image publication | Passed in the initial Actions run |
 
 The [initial Actions run](https://github.com/marcger2004/mlops-lab-1/actions/runs/40890938161)
-was queued after commit 55a82cb was pushed. These pending experiments are not
-claimed as successful results.
+completed successfully for commit 55a82cb: test, smoke, and registry publication
+all passed. The container is published as
+`ghcr.io/marcger2004/mlops-lab-1:55a82cb40cffcec952ae75d15a1a724fa8e5141f`.
+The exact image tag is the full commit SHA shown by that run. The local pull,
+branch-protection experiment, and real-model promotion remain unverified.

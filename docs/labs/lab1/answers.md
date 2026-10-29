@@ -1,6 +1,6 @@
 # Lab 1: Git, DVC, and Data Preparation
 
-[Lab index](../../../README.md#lab-documentation) | [Instructions](instructions.md)
+[Lab index](../index.md) | [Instructions](instructions.md)
 
 ## Overview
 
@@ -9,7 +9,7 @@ This lab uses Git for the code and DVC for the dataset.
 ## Question 1: Files Created by `uv init`
 
 `uv init` sets up the Python project: `pyproject.toml` for settings and
-dependencies, `README.md` for documentation, and `.python-version` for the
+dependencies, `docs/labs/` for lab documentation, and `.python-version` for the
 Python version. This project keeps its code in `src/`.
 
 ## Question 2: Files Created by `dvc init`
@@ -68,7 +68,7 @@ dvc checkout
 
 ## Submission checklist
 
-- Commit the source code, tests, README, lab answers, DVC metadata, and pointer
+- Commit the source code, tests, lab answers, DVC metadata, and pointer
   files to GitHub.
 - Run `dvc push` to upload the dataset content to DagsHub.
 - Confirm that `dvc pull` works from a clean clone when the full workflow is

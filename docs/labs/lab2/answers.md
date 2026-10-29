@@ -1,6 +1,6 @@
 # Lab 2: Model Training and MLflow
 
-[Lab index](../../../README.md#lab-documentation) | [Instructions](instructions.md)
+[Lab index](../index.md) | [Instructions](instructions.md)
 
 ## Overview
 

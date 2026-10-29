@@ -1,6 +1,6 @@
 # Lab 5: CI/CD with GitHub Actions
 
-[Lab index](../../../README.md#lab-documentation) | [Instructions](instructions.md) | [Run guide](README.md)
+[Lab index](../index.md) | [Instructions](instructions.md)
 
 ## Question 1: Why avoid loading the real model in unit tests?
 A stopped MLflow server or unavailable network makes correct code fail. Missing credentials, a moved champion alias, deleted artifacts, and incompatible model dependencies also cause unrelated failures. A fake model makes the test deterministic and independent of training infrastructure.

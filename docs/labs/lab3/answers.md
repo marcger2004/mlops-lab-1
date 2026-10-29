@@ -1,6 +1,6 @@
 # Lab 3: Model Serving with Docker
 
-[Lab index](../../../README.md#lab-documentation) | [Instructions](instructions.md) | [Run guide](README.md)
+[Lab index](../index.md) | [Instructions](instructions.md)
 
 ## Overview
 
