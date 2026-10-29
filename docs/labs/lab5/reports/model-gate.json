@@ -1,0 +1,56 @@
+{
+  "test_size": 1096,
+  "initial_champion": "1",
+  "initial_champion_accuracy": 0.7427007299270073,
+  "seed": 42,
+  "epochs": 1,
+  "candidates": [
+    {
+      "learning_rate": 1e-06,
+      "run_id": "2baa3683ac4f4018845d0432c4d2bf60",
+      "version": "2",
+      "decision": "challenger",
+      "candidate_accuracy": 0.09215328467153285,
+      "champion_accuracy": 0.7427007299270073,
+      "two_se": 0.02640893703055026,
+      "test_size": 1096,
+      "previous_champion": "1",
+      "metric": "test_accuracy",
+      "recorded_version_tags": {
+        "gate.decision": "challenger",
+        "gate.candidate_accuracy": "0.09215328467153285",
+        "gate.champion_accuracy": "0.7427007299270073",
+        "gate.two_se": "0.02640893703055026",
+        "gate.test_size": "1096",
+        "gate.previous_champion": "1",
+        "gate.metric": "test_accuracy"
+      }
+    },
+    {
+      "learning_rate": 0.001,
+      "run_id": "9f2d833f869543c5bc108bc14f9f3e3b",
+      "version": "3",
+      "decision": "challenger",
+      "candidate_accuracy": 0.3585766423357664,
+      "champion_accuracy": 0.7427007299270073,
+      "two_se": 0.02640893703055026,
+      "test_size": 1096,
+      "previous_champion": "1",
+      "metric": "test_accuracy",
+      "recorded_version_tags": {
+        "gate.decision": "challenger",
+        "gate.candidate_accuracy": "0.3585766423357664",
+        "gate.champion_accuracy": "0.7427007299270073",
+        "gate.two_se": "0.02640893703055026",
+        "gate.test_size": "1096",
+        "gate.previous_champion": "1",
+        "gate.metric": "test_accuracy"
+      }
+    }
+  ],
+  "dataset_revision": "b38c87deafd98a0d322d43f803586737.dir",
+  "final_aliases": {
+    "champion": "1",
+    "challenger": "3"
+  }
+}
